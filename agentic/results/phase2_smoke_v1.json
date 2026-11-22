@@ -1,0 +1,1070 @@
+{
+  "no_web": {
+    "chain-06": {
+      "graphrag": 0.5,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "find_match(second Test of India's 2024–25 tour of Austra) -> match_facts(Indian cricket team in Australia in 2024–25 ›) -> f6a_search(first Test played at Adelaide Oval) [cap]",
+      "answer": "The first Test was played at Adelaide Oval in 1884. This ground hosted the second Test of India's 2024–25 tour of Australia from 6–8 December 2024 [1].",
+      "graphrag_answer": "The first Test match was played at Adelaide Oval in 1884 [3]. The second Test of India's 2024–25 tour of Australia was held at Perth Stadium [6].",
+      "cost": 0.0041262,
+      "secs": 16.6,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "the name of the ground that hosted the second Test of India's 2024–25 tour of Australia",
+              "tool": "find_match",
+              "args": {
+                "text": "second Test of India's 2024–25 tour of Australia"
+              }
+            },
+            "tool": "find_match",
+            "args": {
+              "text": "second Test of India's 2024–25 tour of Australia"
+            },
+            "note": "Closest match names:\n  \"Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))\" (similarity 0.923)\n  \"Indian cricket team in Australia in 2020–21 › Test series › 2nd Test (26–30 December 2020)\" (similarity 0.923)\n  \"Indian cricket team in Australia in 2018–19 › Test series › 2nd Test (14–18 December 2018)\" (similarity 0.911)",
+            "hits": [],
+            "log": {
+              "top": [
+                [
+                  "indian_cricket_team_in_australia_in_2024-25::s010::m0",
+                  "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))",
+                  0.923
+                ],
+                [
+                  "indian_cricket_team_in_australia_in_2020-21::s014::m0",
+                  "Indian cricket team in Australia in 2020–21 › Test series › 2nd Test (26–30 December 2020)",
+                  0.923
+                ],
+                [
+                  "indian_cricket_team_in_australia_in_2018-19::s008::m0",
+                  "Indian cricket team in Australia in 2018–19 › Test series › 2nd Test (14–18 December 2018)",
+                  0.911
+                ]
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "the year of the first Test played at the ground for the second Test of India's 2024–25 tour of Australia",
+              "tool": "match_facts",
+              "args": {
+                "match": "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))"
+            },
+            "note": "Match record of \"Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))\".",
+            "hits": [
+              "record::indian_cricket_team_in_australia_in_2024-25::s010::m0"
+            ],
+            "log": {
+              "match": "indian_cricket_team_in_australia_in_2024-25::s010::m0",
+              "lines": [
+                "Match: 6–8 December 2024 (D/N) | India v Australia",
+                "Venue: Adelaide Oval, Adelaide",
+                "Result: Australia won by 10 wickets",
+                "Player of the match: Travis Head (Aus)",
+                "India: 180 (44.1 overs); Nitish Kumar Reddy 42 (54); Mitchell Starc 6/48 (14.1 overs)",
+                "Australia: 337 (87.3 overs); Travis Head 140 (141); Jasprit Bumrah 4/61 (23 overs)",
+                "Australia: 0/19 (3.2 overs); Nathan McSweeney 10* (12)",
+                "India: 175 (36.5 overs); Nitish Kumar Reddy 42 (47); Pat Cummins 5/57 (14 overs)",
+                "Umpires: Chris Gaffaney (NZ) and Richard Illingworth (Eng)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "year of the first Test played at Adelaide Oval",
+              "tool": "f6a_search",
+              "args": {
+                "query": "first Test played at Adelaide Oval"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "first Test played at Adelaide Oval"
+            },
+            "note": "Library search for \"first Test played at Adelaide Oval\".",
+            "hits": [
+              "adelaide_oval::s014::00",
+              "adelaide_oval::s000::01",
+              "adelaide_oval::s000::00",
+              "adelaide_oval::s012::00",
+              "adelaide_oval::s014::03"
+            ],
+            "log": {
+              "query": "first Test played at Adelaide Oval"
+            }
+          }
+        ],
+        "tools": [
+          "find_match",
+          "match_facts",
+          "f6a_search"
+        ],
+        "cap_hit": true,
+        "web": false,
+        "pool": [
+          "record::indian_cricket_team_in_australia_in_2024-25::s010::m0",
+          "adelaide_oval::s014::00",
+          "adelaide_oval::s000::01",
+          "adelaide_oval::s000::00",
+          "adelaide_oval::s012::00",
+          "adelaide_oval::s014::03"
+        ],
+        "agent_tokens_in": 1544
+      },
+      "selfrag_picked": "A_all"
+    },
+    "twin-03": {
+      "graphrag": 1.0,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "find_match(2017 IPL final) -> match_facts(2017 Indian Premier League final) -> graph_walk(2017 Indian Premier League final) [cap]",
+      "answer": "I don't know based on the provided documents.",
+      "graphrag_answer": "In the 2017 IPL final, Mitchell Johnson bowled the last over for the Mumbai Indians, and the Rising Pune Supergiant needed 11 runs from it to win the match [6].",
+      "cost": 0.0030988499999999998,
+      "secs": 5.2,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "details about who bowled the last over for Mumbai Indians and how many runs Rising Pune Supergiant needed from it",
+              "tool": "find_match",
+              "args": {
+                "text": "2017 IPL final"
+              }
+            },
+            "tool": "find_match",
+            "args": {
+              "text": "2017 IPL final"
+            },
+            "note": "Closest match names:\n  \"2017 Indian Premier League final\" (similarity 0.927)\n  \"2017 Champions Trophy final\" (similarity 0.866)\n  \"2018 Indian Premier League final\" (similarity 0.865)",
+            "hits": [],
+            "log": {
+              "top": [
+                [
+                  "2017_indian_premier_league_final::final",
+                  "2017 Indian Premier League final",
+                  0.927
+                ],
+                [
+                  "2017_champions_trophy_final::final",
+                  "2017 Champions Trophy final",
+                  0.866
+                ],
+                [
+                  "2018_indian_premier_league_final::final",
+                  "2018 Indian Premier League final",
+                  0.865
+                ]
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "who bowled Mumbai Indians' last over, how many did Rising Pune Supergiant need from it",
+              "tool": "match_facts",
+              "args": {
+                "match": "2017 Indian Premier League final"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "2017 Indian Premier League final"
+            },
+            "note": "Match record of \"2017 Indian Premier League final\".",
+            "hits": [
+              "record::2017_indian_premier_league_final::final"
+            ],
+            "log": {
+              "match": "2017_indian_premier_league_final::final",
+              "lines": [
+                "Event: 2017 Indian Premier League",
+                "Venue: Rajiv Gandhi International Cricket Stadium, Hyderabad",
+                "Player of the match: Krunal Pandya (MI)",
+                "Umpires: Nigel Llong (Eng); Sundaram Ravi (Ind)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "Who bowled the last over for Mumbai Indians and how many runs did Rising Pune Supergiant need from it?",
+              "tool": "graph_walk",
+              "args": {
+                "match": "2017 Indian Premier League final"
+              }
+            },
+            "tool": "graph_walk",
+            "args": {
+              "match": "2017 Indian Premier League final"
+            },
+            "note": "Started from match \"2017 Indian Premier League final\" (your choice).\nNo path: this match's record has no link to an article (venue, player of the match, top scorers).",
+            "hits": [],
+            "log": {
+              "by_name": [
+                [
+                  "2017_indian_premier_league_final::final",
+                  "2017 Indian Premier League final",
+                  1.0
+                ]
+              ],
+              "by_search": [],
+              "hops": [],
+              "chunks": [],
+              "fallback": true
+            }
+          }
+        ],
+        "tools": [
+          "find_match",
+          "match_facts",
+          "graph_walk"
+        ],
+        "cap_hit": true,
+        "web": false,
+        "pool": [
+          "record::2017_indian_premier_league_final::final"
+        ],
+        "agent_tokens_in": 1247
+      },
+      "selfrag_picked": "A_all"
+    },
+    "alike-06": {
+      "graphrag": 1.0,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "f6a_search(fastest century Men's T20 World Cup) -> enough",
+      "answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [2].",
+      "graphrag_answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [1].",
+      "cost": 0.0033710999999999997,
+      "secs": 9.4,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "details about the fastest century in Men's T20 World Cup history and the player who scored it",
+              "tool": "f6a_search",
+              "args": {
+                "query": "fastest century Men's T20 World Cup"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "fastest century Men's T20 World Cup"
+            },
+            "note": "Library search for \"fastest century Men's T20 World Cup\".",
+            "hits": [
+              "eden_gardens::s023::04",
+              "eden_gardens::s025::02",
+              "glenn_maxwell::s000::03",
+              "narendra_modi_stadium::s014::02",
+              "2024_mens_t20_world_cup::s000::00"
+            ],
+            "log": {
+              "query": "fastest century Men's T20 World Cup"
+            }
+          },
+          {
+            "decision": {
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search"
+        ],
+        "cap_hit": false,
+        "web": false,
+        "pool": [
+          "eden_gardens::s023::04",
+          "eden_gardens::s025::02",
+          "glenn_maxwell::s000::03",
+          "narendra_modi_stadium::s014::02",
+          "2024_mens_t20_world_cup::s000::00"
+        ],
+        "agent_tokens_in": 1236
+      },
+      "selfrag_picked": "A_all"
+    },
+    "chain-07": {
+      "graphrag": 1.0,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "find_match(2024 IPL final) -> match_facts(2024 Indian Premier League final) -> f6a_search(Mitchell Starc school) [cap]",
+      "answer": "I don't know based on the provided documents.",
+      "graphrag_answer": "The player of the match in the 2024 IPL final, Mitchell Starc, attended Homebush Boys High School [1].",
+      "cost": 0.0037251,
+      "secs": 7.0,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "the player of the match in the 2024 IPL final and their school",
+              "tool": "find_match",
+              "args": {
+                "text": "2024 IPL final"
+              }
+            },
+            "tool": "find_match",
+            "args": {
+              "text": "2024 IPL final"
+            },
+            "note": "Closest match names:\n  \"2024 Indian Premier League final\" (similarity 0.944)\n  \"2022 Indian Premier League final\" (similarity 0.907)\n  \"2025 Indian Premier League final\" (similarity 0.894)",
+            "hits": [],
+            "log": {
+              "top": [
+                [
+                  "2024_indian_premier_league_final::final",
+                  "2024 Indian Premier League final",
+                  0.944
+                ],
+                [
+                  "2022_indian_premier_league_final::final",
+                  "2022 Indian Premier League final",
+                  0.907
+                ],
+                [
+                  "2025_indian_premier_league_final::final",
+                  "2025 Indian Premier League final",
+                  0.894
+                ]
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "player of the match details",
+              "tool": "match_facts",
+              "args": {
+                "match": "2024 Indian Premier League final"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "2024 Indian Premier League final"
+            },
+            "note": "Match record of \"2024 Indian Premier League final\".",
+            "hits": [
+              "record::2024_indian_premier_league_final::final"
+            ],
+            "log": {
+              "match": "2024_indian_premier_league_final::final",
+              "lines": [
+                "Event: 2024 Indian Premier League",
+                "Match: Final; 26 May 2024; 19:30 (N) | Sunrisers Hyderabad v Kolkata Knight Riders",
+                "Venue: M. A. Chidambaram Stadium, Chennai",
+                "Result: Kolkata Knight Riders won by 8 wickets",
+                "Player of the match: Mitchell Starc (KKR)",
+                "Sunrisers Hyderabad: Pat Cummins 24 (19); Andre Russell 3/19 (2.3 overs)",
+                "Kolkata Knight Riders: Venkatesh Iyer 52* (26); Pat Cummins 1/18 (2 overs)",
+                "Umpires: Jayaraman Madanagopal (Ind); Nitin Menon (Ind)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "The school attended by Mitchell Starc",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Mitchell Starc school"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Mitchell Starc school"
+            },
+            "note": "Library search for \"Mitchell Starc school\".",
+            "hits": [
+              "mitchell_starc::s001::00",
+              "mitchell_starc::s000::02",
+              "mitchell_starc::s000::00",
+              "mitchell_starc::s012::00",
+              "mitchell_starc::s008::03"
+            ],
+            "log": {
+              "query": "Mitchell Starc school"
+            }
+          }
+        ],
+        "tools": [
+          "find_match",
+          "match_facts",
+          "f6a_search"
+        ],
+        "cap_hit": true,
+        "web": false,
+        "pool": [
+          "record::2024_indian_premier_league_final::final",
+          "mitchell_starc::s001::00",
+          "mitchell_starc::s000::02",
+          "mitchell_starc::s000::00",
+          "mitchell_starc::s012::00",
+          "mitchell_starc::s008::03"
+        ],
+        "agent_tokens_in": 1281
+      },
+      "selfrag_picked": "A_all"
+    },
+    "pair-01": {
+      "graphrag": 1.0,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "f6a_search(Ben Stokes 2019 Cricket World Cup final score) -> f6a_search(Ben Stokes birthplace) -> enough",
+      "answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84 runs not out [2]. He was born in Christchurch, New Zealand [1].",
+      "graphrag_answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84* runs [2]. He was born in Christchurch, New Zealand [6].",
+      "cost": 0.0058308000000000006,
+      "secs": 76.7,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "Ben Stokes' score in the 2019 Cricket World Cup final and his birthplace.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Ben Stokes 2019 Cricket World Cup final score and birthplace"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Ben Stokes 2019 Cricket World Cup final score and birthplace"
+            },
+            "note": "Library search for \"Ben Stokes 2019 Cricket World Cup final score and birthplace\".",
+            "hits": [
+              "ben_stokes::s000::02",
+              "2019_cricket_world_cup::s023::00",
+              "2019_cricket_world_cup_final::s000::00",
+              "ben_stokes::s010::01",
+              "ben_stokes::s010::00"
+            ],
+            "log": {
+              "query": "Ben Stokes 2019 Cricket World Cup final score and birthplace"
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "Ben Stokes' birthplace",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Ben Stokes birthplace"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Ben Stokes birthplace"
+            },
+            "note": "Library search for \"Ben Stokes birthplace\".",
+            "hits": [
+              "ben_stokes::s000::00",
+              "ben_stokes::s000::02",
+              "ben_stokes::s001::00",
+              "ben_stokes::s004::00",
+              "ben_stokes::s014::00"
+            ],
+            "log": {
+              "query": "Ben Stokes birthplace"
+            }
+          },
+          {
+            "decision": {
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "f6a_search"
+        ],
+        "cap_hit": false,
+        "web": false,
+        "pool": [
+          "ben_stokes::s000::02",
+          "2019_cricket_world_cup::s023::00",
+          "2019_cricket_world_cup_final::s000::00",
+          "ben_stokes::s010::01",
+          "ben_stokes::s010::00",
+          "ben_stokes::s000::00",
+          "ben_stokes::s001::00",
+          "ben_stokes::s004::00",
+          "ben_stokes::s014::00"
+        ],
+        "agent_tokens_in": 2731
+      },
+      "selfrag_picked": "A_all"
+    }
+  },
+  "web": {
+    "chain-06": {
+      "graphrag": 0.5,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "find_match(second Test of India's 2024–25 tour of Austra) -> match_facts(Indian cricket team in Australia in 2024–25 ›) -> f6a_search(first Test played at Adelaide Oval) [cap]",
+      "answer": "The first Test was played at Adelaide Oval in 1884. This ground hosted the second Test of India's 2024–25 tour of Australia from 6–8 December 2024 [1].",
+      "graphrag_answer": "The first Test match was played at Adelaide Oval in 1884 [3]. The second Test of India's 2024–25 tour of Australia was held at Perth Stadium [6].",
+      "cost": 0.00414075,
+      "secs": 4.4,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "the name of the ground that hosted the second Test of India's 2024–25 tour of Australia",
+              "tool": "find_match",
+              "args": {
+                "text": "second Test of India's 2024–25 tour of Australia"
+              }
+            },
+            "tool": "find_match",
+            "args": {
+              "text": "second Test of India's 2024–25 tour of Australia"
+            },
+            "note": "Closest match names:\n  \"Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))\" (similarity 0.923)\n  \"Indian cricket team in Australia in 2020–21 › Test series › 2nd Test (26–30 December 2020)\" (similarity 0.923)\n  \"Indian cricket team in Australia in 2018–19 › Test series › 2nd Test (14–18 December 2018)\" (similarity 0.911)",
+            "hits": [],
+            "log": {
+              "top": [
+                [
+                  "indian_cricket_team_in_australia_in_2024-25::s010::m0",
+                  "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))",
+                  0.923
+                ],
+                [
+                  "indian_cricket_team_in_australia_in_2020-21::s014::m0",
+                  "Indian cricket team in Australia in 2020–21 › Test series › 2nd Test (26–30 December 2020)",
+                  0.923
+                ],
+                [
+                  "indian_cricket_team_in_australia_in_2018-19::s008::m0",
+                  "Indian cricket team in Australia in 2018–19 › Test series › 2nd Test (14–18 December 2018)",
+                  0.911
+                ]
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "the year of the first Test played at the ground for the second Test of India's 2024–25 tour of Australia",
+              "tool": "match_facts",
+              "args": {
+                "match": "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))"
+            },
+            "note": "Match record of \"Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))\".",
+            "hits": [
+              "record::indian_cricket_team_in_australia_in_2024-25::s010::m0"
+            ],
+            "log": {
+              "match": "indian_cricket_team_in_australia_in_2024-25::s010::m0",
+              "lines": [
+                "Match: 6–8 December 2024 (D/N) | India v Australia",
+                "Venue: Adelaide Oval, Adelaide",
+                "Result: Australia won by 10 wickets",
+                "Player of the match: Travis Head (Aus)",
+                "India: 180 (44.1 overs); Nitish Kumar Reddy 42 (54); Mitchell Starc 6/48 (14.1 overs)",
+                "Australia: 337 (87.3 overs); Travis Head 140 (141); Jasprit Bumrah 4/61 (23 overs)",
+                "Australia: 0/19 (3.2 overs); Nathan McSweeney 10* (12)",
+                "India: 175 (36.5 overs); Nitish Kumar Reddy 42 (47); Pat Cummins 5/57 (14 overs)",
+                "Umpires: Chris Gaffaney (NZ) and Richard Illingworth (Eng)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "year of the first Test played at Adelaide Oval",
+              "tool": "f6a_search",
+              "args": {
+                "query": "first Test played at Adelaide Oval"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "first Test played at Adelaide Oval"
+            },
+            "note": "Library search for \"first Test played at Adelaide Oval\".",
+            "hits": [
+              "adelaide_oval::s014::00",
+              "adelaide_oval::s000::01",
+              "adelaide_oval::s000::00",
+              "adelaide_oval::s012::00",
+              "adelaide_oval::s014::03"
+            ],
+            "log": {
+              "query": "first Test played at Adelaide Oval"
+            }
+          }
+        ],
+        "tools": [
+          "find_match",
+          "match_facts",
+          "f6a_search"
+        ],
+        "cap_hit": true,
+        "web": false,
+        "pool": [
+          "record::indian_cricket_team_in_australia_in_2024-25::s010::m0",
+          "adelaide_oval::s014::00",
+          "adelaide_oval::s000::01",
+          "adelaide_oval::s000::00",
+          "adelaide_oval::s012::00",
+          "adelaide_oval::s014::03"
+        ],
+        "agent_tokens_in": 1637
+      },
+      "selfrag_picked": "A_all"
+    },
+    "twin-03": {
+      "graphrag": 1.0,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "find_match(2017 IPL final) -> match_facts(2017 Indian Premier League final) -> f6a_search(2017 IPL final last over bowler Rising Pune S) [cap]",
+      "answer": "I don't know based on the provided documents.",
+      "graphrag_answer": "In the 2017 IPL final, Mitchell Johnson bowled the last over for the Mumbai Indians, and the Rising Pune Supergiant needed 11 runs from it to win the match [6].",
+      "cost": 0.00422925,
+      "secs": 7.0,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "details about the bowler who bowled the last over for Mumbai Indians and the number of runs needed by Rising Pune Supergiant from that over",
+              "tool": "find_match",
+              "args": {
+                "text": "2017 IPL final"
+              }
+            },
+            "tool": "find_match",
+            "args": {
+              "text": "2017 IPL final"
+            },
+            "note": "Closest match names:\n  \"2017 Indian Premier League final\" (similarity 0.927)\n  \"2017 Champions Trophy final\" (similarity 0.866)\n  \"2018 Indian Premier League final\" (similarity 0.865)",
+            "hits": [],
+            "log": {
+              "top": [
+                [
+                  "2017_indian_premier_league_final::final",
+                  "2017 Indian Premier League final",
+                  0.927
+                ],
+                [
+                  "2017_champions_trophy_final::final",
+                  "2017 Champions Trophy final",
+                  0.866
+                ],
+                [
+                  "2018_indian_premier_league_final::final",
+                  "2018 Indian Premier League final",
+                  0.865
+                ]
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "who bowled Mumbai Indians' last over, how many did Rising Pune Supergiant need from it",
+              "tool": "match_facts",
+              "args": {
+                "match": "2017 Indian Premier League final"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "2017 Indian Premier League final"
+            },
+            "note": "Match record of \"2017 Indian Premier League final\".",
+            "hits": [
+              "record::2017_indian_premier_league_final::final"
+            ],
+            "log": {
+              "match": "2017_indian_premier_league_final::final",
+              "lines": [
+                "Event: 2017 Indian Premier League",
+                "Venue: Rajiv Gandhi International Cricket Stadium, Hyderabad",
+                "Player of the match: Krunal Pandya (MI)",
+                "Umpires: Nigel Llong (Eng); Sundaram Ravi (Ind)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "Who bowled the last over for Mumbai Indians and how many runs did Rising Pune Supergiant need from it?",
+              "tool": "f6a_search",
+              "args": {
+                "query": "2017 IPL final last over bowler Rising Pune Supergiant runs needed"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "2017 IPL final last over bowler Rising Pune Supergiant runs needed"
+            },
+            "note": "Library search for \"2017 IPL final last over bowler Rising Pune Supergiant runs needed\".",
+            "hits": [
+              "2017_indian_premier_league_final::s000::00",
+              "2017_indian_premier_league::s012::00",
+              "2017_indian_premier_league_final::s006::02",
+              "2017_indian_premier_league_final::s006::01",
+              "2017_indian_premier_league::s000::00"
+            ],
+            "log": {
+              "query": "2017 IPL final last over bowler Rising Pune Supergiant runs needed"
+            }
+          }
+        ],
+        "tools": [
+          "find_match",
+          "match_facts",
+          "f6a_search"
+        ],
+        "cap_hit": true,
+        "web": false,
+        "pool": [
+          "record::2017_indian_premier_league_final::final",
+          "2017_indian_premier_league_final::s000::00",
+          "2017_indian_premier_league::s012::00",
+          "2017_indian_premier_league_final::s006::02",
+          "2017_indian_premier_league_final::s006::01",
+          "2017_indian_premier_league::s000::00"
+        ],
+        "agent_tokens_in": 1340
+      },
+      "selfrag_picked": "A_all"
+    },
+    "alike-06": {
+      "graphrag": 1.0,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "f6a_search(fastest century Men's T20 World Cup) -> enough",
+      "answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [2].",
+      "graphrag_answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [1].",
+      "cost": 0.0033803999999999996,
+      "secs": 2.5,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "details about the fastest century in Men's T20 World Cup history and the player who scored it",
+              "tool": "f6a_search",
+              "args": {
+                "query": "fastest century Men's T20 World Cup"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "fastest century Men's T20 World Cup"
+            },
+            "note": "Library search for \"fastest century Men's T20 World Cup\".",
+            "hits": [
+              "eden_gardens::s023::04",
+              "eden_gardens::s025::02",
+              "glenn_maxwell::s000::03",
+              "narendra_modi_stadium::s014::02",
+              "2024_mens_t20_world_cup::s000::00"
+            ],
+            "log": {
+              "query": "fastest century Men's T20 World Cup"
+            }
+          },
+          {
+            "decision": {
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search"
+        ],
+        "cap_hit": false,
+        "web": false,
+        "pool": [
+          "eden_gardens::s023::04",
+          "eden_gardens::s025::02",
+          "glenn_maxwell::s000::03",
+          "narendra_modi_stadium::s014::02",
+          "2024_mens_t20_world_cup::s000::00"
+        ],
+        "agent_tokens_in": 1298
+      },
+      "selfrag_picked": "A_all"
+    },
+    "chain-07": {
+      "graphrag": 1.0,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "find_match(2024 IPL final) -> match_facts(2024 Indian Premier League final) -> f6a_search(Mitchell Starc school attended) [cap]",
+      "answer": "I don't know based on the provided documents.",
+      "graphrag_answer": "The player of the match in the 2024 IPL final, Mitchell Starc, attended Homebush Boys High School [1].",
+      "cost": 0.0037239,
+      "secs": 6.8,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "details about the 2024 IPL final and the player of the match",
+              "tool": "find_match",
+              "args": {
+                "text": "2024 IPL final"
+              }
+            },
+            "tool": "find_match",
+            "args": {
+              "text": "2024 IPL final"
+            },
+            "note": "Closest match names:\n  \"2024 Indian Premier League final\" (similarity 0.944)\n  \"2022 Indian Premier League final\" (similarity 0.907)\n  \"2025 Indian Premier League final\" (similarity 0.894)",
+            "hits": [],
+            "log": {
+              "top": [
+                [
+                  "2024_indian_premier_league_final::final",
+                  "2024 Indian Premier League final",
+                  0.944
+                ],
+                [
+                  "2022_indian_premier_league_final::final",
+                  "2022 Indian Premier League final",
+                  0.907
+                ],
+                [
+                  "2025_indian_premier_league_final::final",
+                  "2025 Indian Premier League final",
+                  0.894
+                ]
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "player of the match details",
+              "tool": "match_facts",
+              "args": {
+                "match": "2024 Indian Premier League final"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "2024 Indian Premier League final"
+            },
+            "note": "Match record of \"2024 Indian Premier League final\".",
+            "hits": [
+              "record::2024_indian_premier_league_final::final"
+            ],
+            "log": {
+              "match": "2024_indian_premier_league_final::final",
+              "lines": [
+                "Event: 2024 Indian Premier League",
+                "Match: Final; 26 May 2024; 19:30 (N) | Sunrisers Hyderabad v Kolkata Knight Riders",
+                "Venue: M. A. Chidambaram Stadium, Chennai",
+                "Result: Kolkata Knight Riders won by 8 wickets",
+                "Player of the match: Mitchell Starc (KKR)",
+                "Sunrisers Hyderabad: Pat Cummins 24 (19); Andre Russell 3/19 (2.3 overs)",
+                "Kolkata Knight Riders: Venkatesh Iyer 52* (26); Pat Cummins 1/18 (2 overs)",
+                "Umpires: Jayaraman Madanagopal (Ind); Nitin Menon (Ind)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "The school attended by Mitchell Starc",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Mitchell Starc school attended"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Mitchell Starc school attended"
+            },
+            "note": "Library search for \"Mitchell Starc school attended\".",
+            "hits": [
+              "mitchell_starc::s001::00",
+              "mitchell_starc::s012::00",
+              "mitchell_starc::s000::02",
+              "mitchell_starc::s015::00",
+              "mitchell_starc::s000::03"
+            ],
+            "log": {
+              "query": "Mitchell Starc school attended"
+            }
+          }
+        ],
+        "tools": [
+          "find_match",
+          "match_facts",
+          "f6a_search"
+        ],
+        "cap_hit": true,
+        "web": false,
+        "pool": [
+          "record::2024_indian_premier_league_final::final",
+          "mitchell_starc::s001::00",
+          "mitchell_starc::s012::00",
+          "mitchell_starc::s000::02",
+          "mitchell_starc::s015::00",
+          "mitchell_starc::s000::03"
+        ],
+        "agent_tokens_in": 1374
+      },
+      "selfrag_picked": "A_all"
+    },
+    "pair-01": {
+      "graphrag": 1.0,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "find_match(2019 Cricket World Cup final) -> match_facts(2019 Cricket World Cup final) -> f6a_search(Ben Stokes birthplace) [cap]",
+      "answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84 runs not out [1]. He was born in Christchurch, New Zealand [2].",
+      "graphrag_answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84* runs [2]. He was born in Christchurch, New Zealand [6].",
+      "cost": 0.00436005,
+      "secs": 9.0,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "enough": false,
+              "missing": "Ben Stokes' score in the 2019 Cricket World Cup final and his birthplace",
+              "tool": "find_match",
+              "args": {
+                "text": "2019 Cricket World Cup final"
+              }
+            },
+            "tool": "find_match",
+            "args": {
+              "text": "2019 Cricket World Cup final"
+            },
+            "note": "Closest match names:\n  \"2019 Cricket World Cup final\" (similarity 1.000)\n  \"2023 Cricket World Cup final\" (similarity 0.922)\n  \"2019 Cricket World Cup › Knockout stage › Final (14 July 2019; 10:30)\" (similarity 0.904)",
+            "hits": [],
+            "log": {
+              "top": [
+                [
+                  "2019_cricket_world_cup_final::final",
+                  "2019 Cricket World Cup final",
+                  1.0
+                ],
+                [
+                  "2023_cricket_world_cup_final::final",
+                  "2023 Cricket World Cup final",
+                  0.922
+                ],
+                [
+                  "2019_cricket_world_cup::s023::m0",
+                  "2019 Cricket World Cup › Knockout stage › Final (14 July 2019; 10:30)",
+                  0.904
+                ]
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "Ben Stokes' score in the 2019 Cricket World Cup final and his birthplace",
+              "tool": "match_facts",
+              "args": {
+                "match": "2019 Cricket World Cup final"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "2019 Cricket World Cup final"
+            },
+            "note": "Match record of \"2019 Cricket World Cup final\".",
+            "hits": [
+              "record::2019_cricket_world_cup_final::final"
+            ],
+            "log": {
+              "match": "2019_cricket_world_cup_final::final",
+              "lines": [
+                "Event: 2019 Cricket World Cup",
+                "Match: 14 July 2019; 10:30 | New Zealand v England",
+                "Venue: Lord's, London",
+                "Player of the match: Ben Stokes (Eng)",
+                "New Zealand: Henry Nicholls 55 (77); Chris Woakes 3/37 (9 overs)",
+                "England: Ben Stokes 84* (98); James Neesham 3/43 (7 overs)",
+                "Umpires: Kumar Dharmasena (SL) and Marais Erasmus (SA)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "enough": false,
+              "missing": "Ben Stokes' birthplace",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Ben Stokes birthplace"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Ben Stokes birthplace"
+            },
+            "note": "Library search for \"Ben Stokes birthplace\".",
+            "hits": [
+              "ben_stokes::s000::00",
+              "ben_stokes::s000::02",
+              "ben_stokes::s001::00",
+              "ben_stokes::s004::00",
+              "ben_stokes::s014::00"
+            ],
+            "log": {
+              "query": "Ben Stokes birthplace"
+            }
+          }
+        ],
+        "tools": [
+          "find_match",
+          "match_facts",
+          "f6a_search"
+        ],
+        "cap_hit": true,
+        "web": false,
+        "pool": [
+          "record::2019_cricket_world_cup_final::final",
+          "ben_stokes::s000::00",
+          "ben_stokes::s000::02",
+          "ben_stokes::s001::00",
+          "ben_stokes::s004::00",
+          "ben_stokes::s014::00"
+        ],
+        "agent_tokens_in": 1418
+      },
+      "selfrag_picked": "A_all"
+    }
+  },
+  "spend": {
+    "real_usd": 0.0171,
+    "serper_requests": 0,
+    "serper_cached": 0
+  }
+}

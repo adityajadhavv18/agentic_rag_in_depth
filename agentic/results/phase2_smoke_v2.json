@@ -1,0 +1,942 @@
+{
+  "no_web": {
+    "chain-06": {
+      "graphrag": 0.5,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "f6a_search(India's 2024–25 tour of Australia second Test) -> f6a_search(first Test played at Melbourne Cricket Ground) -> stop(f6a_search)",
+      "answer": "The first Test was played at the Melbourne Cricket Ground from 15–19 March 1877, which hosted the second Test of India's 2024–25 tour of Australia [1].",
+      "graphrag_answer": "The first Test match was played at Adelaide Oval in 1884 [3]. The second Test of India's 2024–25 tour of Australia was held at Perth Stadium [6].",
+      "cost": 0.00679545,
+      "secs": 18.8,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "",
+              "enough": false,
+              "missing": "The name of the ground that hosted the second Test of India's 2024–25 tour of Australia and the year of the first Test played there.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "India's 2024–25 tour of Australia second Test"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "India's 2024–25 tour of Australia second Test"
+            },
+            "note": "Library search for \"India's 2024–25 tour of Australia second Test\".",
+            "hits": [
+              "indian_cricket_team_in_australia_in_2024-25::s000::00",
+              "indian_cricket_team_in_australia_in_2024-25::s001::00",
+              "indian_cricket_team_in_australia_in_2024-25::s011::00",
+              "indian_cricket_team_in_australia_in_2024-25::s004::01",
+              "indian_cricket_team_in_australia_in_2024-25::s004::00"
+            ],
+            "log": {
+              "query": "India's 2024–25 tour of Australia second Test"
+            }
+          },
+          {
+            "decision": {
+              "known": "The second Test of India's 2024–25 tour of Australia is played at the Melbourne Cricket Ground (MCG).",
+              "enough": false,
+              "missing": "The year the first Test was played at the Melbourne Cricket Ground.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "first Test played at Melbourne Cricket Ground"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "first Test played at Melbourne Cricket Ground"
+            },
+            "note": "Library search for \"first Test played at Melbourne Cricket Ground\".",
+            "hits": [
+              "melbourne_cricket_ground::s004::02",
+              "melbourne_cricket_ground::s004::01",
+              "melbourne_cricket_ground::s004::00",
+              "melbourne_cricket_ground::s000::02",
+              "melbourne_cricket_ground::s000::05"
+            ],
+            "log": {
+              "query": "first Test played at Melbourne Cricket Ground"
+            }
+          },
+          {
+            "decision": {
+              "known": "The second Test of India's 2024–25 tour of Australia was played at the Melbourne Cricket Ground (MCG).",
+              "enough": false,
+              "missing": "The year the first Test was played at the Melbourne Cricket Ground.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "first Test played at Melbourne Cricket Ground"
+              }
+            },
+            "repeat": true
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "f6a_search"
+        ],
+        "end": "repeat",
+        "cap_hit": false,
+        "known": "The second Test of India's 2024–25 tour of Australia was played at the Melbourne Cricket Ground (MCG).",
+        "web": false,
+        "pool": [
+          "indian_cricket_team_in_australia_in_2024-25::s000::00",
+          "indian_cricket_team_in_australia_in_2024-25::s001::00",
+          "indian_cricket_team_in_australia_in_2024-25::s011::00",
+          "indian_cricket_team_in_australia_in_2024-25::s004::01",
+          "indian_cricket_team_in_australia_in_2024-25::s004::00",
+          "melbourne_cricket_ground::s004::02",
+          "melbourne_cricket_ground::s004::01",
+          "melbourne_cricket_ground::s004::00",
+          "melbourne_cricket_ground::s000::02",
+          "melbourne_cricket_ground::s000::05"
+        ],
+        "agent_calls": 3
+      },
+      "selfrag_picked": "A9"
+    },
+    "twin-03": {
+      "graphrag": 1.0,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "f6a_search(2017 IPL final last over bowler and runs need) -> match_facts(2017 Indian Premier League final) -> stop(f6a_search)",
+      "answer": "I don't know based on the provided documents.",
+      "graphrag_answer": "In the 2017 IPL final, Mitchell Johnson bowled the last over for the Mumbai Indians, and the Rising Pune Supergiant needed 11 runs from it to win the match [6].",
+      "cost": 0.00450945,
+      "secs": 9.0,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "",
+              "enough": false,
+              "missing": "The bowler for Mumbai Indians in the last over and the number of runs needed by Rising Pune Supergiant from that over.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "2017 IPL final last over bowler and runs needed by Rising Pune Supergiant"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "2017 IPL final last over bowler and runs needed by Rising Pune Supergiant"
+            },
+            "note": "Library search for \"2017 IPL final last over bowler and runs needed by Rising Pune Supergiant\".",
+            "hits": [
+              "2017_indian_premier_league_final::s000::00",
+              "2017_indian_premier_league_final::s006::02",
+              "2017_indian_premier_league::s012::00",
+              "2017_indian_premier_league_final::s006::01",
+              "2017_indian_premier_league::s000::00"
+            ],
+            "log": {
+              "query": "2017 IPL final last over bowler and runs needed by Rising Pune Supergiant"
+            }
+          },
+          {
+            "decision": {
+              "known": "2017 IPL final, Mumbai Indians vs Rising Pune Supergiant, Mumbai Indians won by 1 run, venue Rajiv Gandhi International Cricket Stadium, Hyderabad",
+              "enough": false,
+              "missing": "Last over bowler for Mumbai Indians and runs needed by Rising Pune Supergiant from that over",
+              "tool": "match_facts",
+              "args": {
+                "match": "2017 Indian Premier League final"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "2017 Indian Premier League final"
+            },
+            "note": "Match record of \"2017 Indian Premier League final\".",
+            "hits": [
+              "record::2017_indian_premier_league_final::final"
+            ],
+            "log": {
+              "match": "2017_indian_premier_league_final::final",
+              "lines": [
+                "Event: 2017 Indian Premier League",
+                "Venue: Rajiv Gandhi International Cricket Stadium, Hyderabad",
+                "Player of the match: Krunal Pandya (MI)",
+                "Umpires: Nigel Llong (Eng); Sundaram Ravi (Ind)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "known": "2017 Indian Premier League final, Mumbai Indians vs Rising Pune Supergiant, Rajiv Gandhi International Cricket Stadium, Hyderabad",
+              "enough": false,
+              "missing": "Last over bowler for Mumbai Indians and runs needed by Rising Pune Supergiant from that over",
+              "tool": "f6a_search",
+              "args": {
+                "query": "2017 IPL final last over bowler and runs needed by Rising Pune Supergiant"
+              }
+            },
+            "repeat": true
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "match_facts"
+        ],
+        "end": "repeat",
+        "cap_hit": false,
+        "known": "2017 Indian Premier League final, Mumbai Indians vs Rising Pune Supergiant, Rajiv Gandhi International Cricket Stadium, Hyderabad",
+        "web": false,
+        "pool": [
+          "record::2017_indian_premier_league_final::final",
+          "2017_indian_premier_league_final::s000::00",
+          "2017_indian_premier_league_final::s006::02",
+          "2017_indian_premier_league::s012::00",
+          "2017_indian_premier_league_final::s006::01",
+          "2017_indian_premier_league::s000::00"
+        ],
+        "agent_calls": 3
+      },
+      "selfrag_picked": "A_all"
+    },
+    "alike-06": {
+      "graphrag": 1.0,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "f6a_search(fastest century Men's T20 World Cup) -> enough",
+      "answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [2].",
+      "graphrag_answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [1].",
+      "cost": 0.0034356,
+      "secs": 3.5,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "",
+              "enough": false,
+              "missing": "The fastest century in Men's T20 World Cup history and the player who scored it.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "fastest century Men's T20 World Cup"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "fastest century Men's T20 World Cup"
+            },
+            "note": "Library search for \"fastest century Men's T20 World Cup\".",
+            "hits": [
+              "eden_gardens::s023::04",
+              "eden_gardens::s025::02",
+              "glenn_maxwell::s000::03",
+              "narendra_modi_stadium::s014::02",
+              "2024_mens_t20_world_cup::s000::00"
+            ],
+            "log": {
+              "query": "fastest century Men's T20 World Cup"
+            }
+          },
+          {
+            "decision": {
+              "known": "Finn Allen scored the fastest century in Men's T20 World Cup history, achieving 100* off 33 balls against South Africa on 4 March 2026.",
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search"
+        ],
+        "end": "enough",
+        "cap_hit": false,
+        "known": "Finn Allen scored the fastest century in Men's T20 World Cup history, achieving 100* off 33 balls against South Africa on 4 March 2026.",
+        "web": false,
+        "pool": [
+          "eden_gardens::s023::04",
+          "eden_gardens::s025::02",
+          "glenn_maxwell::s000::03",
+          "narendra_modi_stadium::s014::02",
+          "2024_mens_t20_world_cup::s000::00"
+        ],
+        "agent_calls": 2
+      },
+      "selfrag_picked": "A_all"
+    },
+    "chain-07": {
+      "graphrag": 1.0,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "f6a_search(2024 IPL final player of the match) -> f6a_search(Mitchell Starc school) -> enough",
+      "answer": "I don't know based on the provided documents.",
+      "graphrag_answer": "The player of the match in the 2024 IPL final, Mitchell Starc, attended Homebush Boys High School [1].",
+      "cost": 0.005768400000000001,
+      "secs": 9.6,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "",
+              "enough": false,
+              "missing": "The player of the match in the 2024 IPL final and their school.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "2024 IPL final player of the match"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "2024 IPL final player of the match"
+            },
+            "note": "Library search for \"2024 IPL final player of the match\".",
+            "hits": [
+              "2024_indian_premier_league_final::s000::00",
+              "2024_indian_premier_league_final::s004::00",
+              "2024_indian_premier_league::s017::00",
+              "2024_indian_premier_league::s000::00",
+              "2023_indian_premier_league_final::s000::00"
+            ],
+            "log": {
+              "query": "2024 IPL final player of the match"
+            }
+          },
+          {
+            "decision": {
+              "known": "The player of the match in the 2024 IPL final is Mitchell Starc, who played for Kolkata Knight Riders.",
+              "enough": false,
+              "missing": "The school that Mitchell Starc attended is still missing.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Mitchell Starc school"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Mitchell Starc school"
+            },
+            "note": "Library search for \"Mitchell Starc school\".",
+            "hits": [
+              "mitchell_starc::s001::00",
+              "mitchell_starc::s000::02",
+              "mitchell_starc::s000::00",
+              "mitchell_starc::s012::00",
+              "mitchell_starc::s008::03"
+            ],
+            "log": {
+              "query": "Mitchell Starc school"
+            }
+          },
+          {
+            "decision": {
+              "known": "Mitchell Starc was the player of the match in the 2024 IPL final, which took place on 26 May 2024, where Kolkata Knight Riders defeated Sunrisers Hyderabad.",
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "f6a_search"
+        ],
+        "end": "enough",
+        "cap_hit": false,
+        "known": "Mitchell Starc was the player of the match in the 2024 IPL final, which took place on 26 May 2024, where Kolkata Knight Riders defeated Sunrisers Hyderabad.",
+        "web": false,
+        "pool": [
+          "2024_indian_premier_league_final::s000::00",
+          "2024_indian_premier_league_final::s004::00",
+          "2024_indian_premier_league::s017::00",
+          "2024_indian_premier_league::s000::00",
+          "2023_indian_premier_league_final::s000::00",
+          "mitchell_starc::s001::00",
+          "mitchell_starc::s000::02",
+          "mitchell_starc::s000::00",
+          "mitchell_starc::s012::00",
+          "mitchell_starc::s008::03"
+        ],
+        "agent_calls": 3
+      },
+      "selfrag_picked": "A_all"
+    },
+    "pair-01": {
+      "graphrag": 1.0,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "f6a_search(Ben Stokes 2019 Cricket World Cup final score) -> f6a_search(Ben Stokes birthplace) -> enough",
+      "answer": "Ben Stokes scored 84 runs in the 2019 Cricket World Cup final [1]. He was born in Christchurch, New Zealand [6].",
+      "graphrag_answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84* runs [2]. He was born in Christchurch, New Zealand [6].",
+      "cost": 0.00653355,
+      "secs": 11.7,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "Ben Stokes",
+              "enough": false,
+              "missing": "Ben Stokes' score in the 2019 Cricket World Cup final and his birthplace",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Ben Stokes 2019 Cricket World Cup final score"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Ben Stokes 2019 Cricket World Cup final score"
+            },
+            "note": "Library search for \"Ben Stokes 2019 Cricket World Cup final score\".",
+            "hits": [
+              "2019_cricket_world_cup::s023::00",
+              "2019_cricket_world_cup_final::s010::00",
+              "2019_cricket_world_cup_final::s000::00",
+              "2019_cricket_world_cup_final::s010::04",
+              "ben_stokes::s010::01"
+            ],
+            "log": {
+              "query": "Ben Stokes 2019 Cricket World Cup final score"
+            }
+          },
+          {
+            "decision": {
+              "known": "Ben Stokes scored 84* in the 2019 Cricket World Cup final held at Lord's, London.",
+              "enough": false,
+              "missing": "Where Ben Stokes was born.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Ben Stokes birthplace"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Ben Stokes birthplace"
+            },
+            "note": "Library search for \"Ben Stokes birthplace\".",
+            "hits": [
+              "ben_stokes::s000::00",
+              "ben_stokes::s000::02",
+              "ben_stokes::s001::00",
+              "ben_stokes::s004::00",
+              "ben_stokes::s014::00"
+            ],
+            "log": {
+              "query": "Ben Stokes birthplace"
+            }
+          },
+          {
+            "decision": {
+              "known": "Ben Stokes scored 84* in the 2019 Cricket World Cup final; he was born in Christchurch, New Zealand.",
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "f6a_search"
+        ],
+        "end": "enough",
+        "cap_hit": false,
+        "known": "Ben Stokes scored 84* in the 2019 Cricket World Cup final; he was born in Christchurch, New Zealand.",
+        "web": false,
+        "pool": [
+          "2019_cricket_world_cup::s023::00",
+          "2019_cricket_world_cup_final::s010::00",
+          "2019_cricket_world_cup_final::s000::00",
+          "2019_cricket_world_cup_final::s010::04",
+          "ben_stokes::s010::01",
+          "ben_stokes::s000::00",
+          "ben_stokes::s000::02",
+          "ben_stokes::s001::00",
+          "ben_stokes::s004::00",
+          "ben_stokes::s014::00"
+        ],
+        "agent_calls": 3
+      },
+      "selfrag_picked": "A_all"
+    }
+  },
+  "web": {
+    "chain-06": {
+      "graphrag": 0.5,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "f6a_search(India's 2024–25 tour of Australia second Test) -> f6a_search(first Test played at Melbourne Cricket Ground) -> f6a_search(first Test match Melbourne Cricket Ground yea) [cap]",
+      "answer": "The first Test was played at the Melbourne Cricket Ground from 15–19 March 1877, which hosted the second Test of India's 2024–25 tour of Australia [1].",
+      "graphrag_answer": "The first Test match was played at Adelaide Oval in 1884 [3]. The second Test of India's 2024–25 tour of Australia was held at Perth Stadium [6].",
+      "cost": 0.008986649999999999,
+      "secs": 12.2,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "",
+              "enough": false,
+              "missing": "The name of the ground that hosted the second Test of India's 2024–25 tour of Australia and the year of the first Test played there.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "India's 2024–25 tour of Australia second Test"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "India's 2024–25 tour of Australia second Test"
+            },
+            "note": "Library search for \"India's 2024–25 tour of Australia second Test\".",
+            "hits": [
+              "indian_cricket_team_in_australia_in_2024-25::s000::00",
+              "indian_cricket_team_in_australia_in_2024-25::s001::00",
+              "indian_cricket_team_in_australia_in_2024-25::s011::00",
+              "indian_cricket_team_in_australia_in_2024-25::s004::01",
+              "indian_cricket_team_in_australia_in_2024-25::s004::00"
+            ],
+            "log": {
+              "query": "India's 2024–25 tour of Australia second Test"
+            }
+          },
+          {
+            "decision": {
+              "known": "The second Test of India's 2024–25 tour of Australia was played at the Melbourne Cricket Ground (MCG).",
+              "enough": false,
+              "missing": "The year the first Test was played at the Melbourne Cricket Ground.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "first Test played at Melbourne Cricket Ground"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "first Test played at Melbourne Cricket Ground"
+            },
+            "note": "Library search for \"first Test played at Melbourne Cricket Ground\".",
+            "hits": [
+              "melbourne_cricket_ground::s004::02",
+              "melbourne_cricket_ground::s004::01",
+              "melbourne_cricket_ground::s004::00",
+              "melbourne_cricket_ground::s000::02",
+              "melbourne_cricket_ground::s000::05"
+            ],
+            "log": {
+              "query": "first Test played at Melbourne Cricket Ground"
+            }
+          },
+          {
+            "decision": {
+              "known": "The second Test of India's 2024–25 tour of Australia was played at the Melbourne Cricket Ground.",
+              "enough": false,
+              "missing": "The year the first Test was played at the Melbourne Cricket Ground.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "first Test match Melbourne Cricket Ground year"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "first Test match Melbourne Cricket Ground year"
+            },
+            "note": "Library search for \"first Test match Melbourne Cricket Ground year\".",
+            "hits": [
+              "melbourne_cricket_ground::s000::05",
+              "melbourne_cricket_ground::s013::00",
+              "melbourne_cricket_ground::s000::02",
+              "melbourne_cricket_ground::s000::03",
+              "melbourne_cricket_ground::s004::00"
+            ],
+            "log": {
+              "query": "first Test match Melbourne Cricket Ground year"
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "f6a_search",
+          "f6a_search"
+        ],
+        "end": "cap",
+        "cap_hit": true,
+        "known": "The second Test of India's 2024–25 tour of Australia was played at the Melbourne Cricket Ground.",
+        "web": false,
+        "pool": [
+          "indian_cricket_team_in_australia_in_2024-25::s000::00",
+          "indian_cricket_team_in_australia_in_2024-25::s001::00",
+          "indian_cricket_team_in_australia_in_2024-25::s011::00",
+          "indian_cricket_team_in_australia_in_2024-25::s004::01",
+          "indian_cricket_team_in_australia_in_2024-25::s004::00",
+          "melbourne_cricket_ground::s004::02",
+          "melbourne_cricket_ground::s004::01",
+          "melbourne_cricket_ground::s004::00",
+          "melbourne_cricket_ground::s000::02",
+          "melbourne_cricket_ground::s000::05",
+          "melbourne_cricket_ground::s013::00",
+          "melbourne_cricket_ground::s000::03"
+        ],
+        "agent_calls": 3
+      },
+      "selfrag_picked": "A9"
+    },
+    "twin-03": {
+      "graphrag": 1.0,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "f6a_search(2017 IPL final last over bowler and runs need) -> match_facts(2017 Indian Premier League final) -> stop(f6a_search)",
+      "answer": "I don't know based on the provided documents.",
+      "graphrag_answer": "In the 2017 IPL final, Mitchell Johnson bowled the last over for the Mumbai Indians, and the Rising Pune Supergiant needed 11 runs from it to win the match [6].",
+      "cost": 0.00454575,
+      "secs": 4.8,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "",
+              "enough": false,
+              "missing": "The bowler for Mumbai Indians in the last over and the number of runs needed by Rising Pune Supergiant from that over.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "2017 IPL final last over bowler and runs needed by Rising Pune Supergiant"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "2017 IPL final last over bowler and runs needed by Rising Pune Supergiant"
+            },
+            "note": "Library search for \"2017 IPL final last over bowler and runs needed by Rising Pune Supergiant\".",
+            "hits": [
+              "2017_indian_premier_league_final::s000::00",
+              "2017_indian_premier_league_final::s006::02",
+              "2017_indian_premier_league::s012::00",
+              "2017_indian_premier_league_final::s006::01",
+              "2017_indian_premier_league::s000::00"
+            ],
+            "log": {
+              "query": "2017 IPL final last over bowler and runs needed by Rising Pune Supergiant"
+            }
+          },
+          {
+            "decision": {
+              "known": "2017 IPL final, Mumbai Indians vs Rising Pune Supergiant, Mumbai Indians won by 1 run, venue Rajiv Gandhi International Cricket Stadium, Hyderabad",
+              "enough": false,
+              "missing": "Bowler who bowled the last over for Mumbai Indians and the number of runs needed by Rising Pune Supergiant from that over.",
+              "tool": "match_facts",
+              "args": {
+                "match": "2017 Indian Premier League final"
+              }
+            },
+            "tool": "match_facts",
+            "args": {
+              "match": "2017 Indian Premier League final"
+            },
+            "note": "Match record of \"2017 Indian Premier League final\".",
+            "hits": [
+              "record::2017_indian_premier_league_final::final"
+            ],
+            "log": {
+              "match": "2017_indian_premier_league_final::final",
+              "lines": [
+                "Event: 2017 Indian Premier League",
+                "Venue: Rajiv Gandhi International Cricket Stadium, Hyderabad",
+                "Player of the match: Krunal Pandya (MI)",
+                "Umpires: Nigel Llong (Eng); Sundaram Ravi (Ind)"
+              ]
+            }
+          },
+          {
+            "decision": {
+              "known": "2017 IPL final, Mumbai Indians vs Rising Pune Supergiant, Rajiv Gandhi International Cricket Stadium, Hyderabad, Mumbai Indians won by 1 run, Player of the match: Krunal Pandya",
+              "enough": false,
+              "missing": "Bowler who bowled the last over for Mumbai Indians and the number of runs needed by Rising Pune Supergiant from that over.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "2017 IPL final last over bowler and runs needed by Rising Pune Supergiant"
+              }
+            },
+            "repeat": true
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "match_facts"
+        ],
+        "end": "repeat",
+        "cap_hit": false,
+        "known": "2017 IPL final, Mumbai Indians vs Rising Pune Supergiant, Rajiv Gandhi International Cricket Stadium, Hyderabad, Mumbai Indians won by 1 run, Player of the match: Krunal Pandya",
+        "web": false,
+        "pool": [
+          "record::2017_indian_premier_league_final::final",
+          "2017_indian_premier_league_final::s000::00",
+          "2017_indian_premier_league_final::s006::02",
+          "2017_indian_premier_league::s012::00",
+          "2017_indian_premier_league_final::s006::01",
+          "2017_indian_premier_league::s000::00"
+        ],
+        "agent_calls": 3
+      },
+      "selfrag_picked": "A_all"
+    },
+    "alike-06": {
+      "graphrag": 1.0,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "f6a_search(fastest century Men's T20 World Cup) -> enough",
+      "answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [2].",
+      "graphrag_answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [1].",
+      "cost": 0.0034402499999999997,
+      "secs": 1.5,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "",
+              "enough": false,
+              "missing": "The fastest century in Men's T20 World Cup history and the player who scored it.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "fastest century Men's T20 World Cup"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "fastest century Men's T20 World Cup"
+            },
+            "note": "Library search for \"fastest century Men's T20 World Cup\".",
+            "hits": [
+              "eden_gardens::s023::04",
+              "eden_gardens::s025::02",
+              "glenn_maxwell::s000::03",
+              "narendra_modi_stadium::s014::02",
+              "2024_mens_t20_world_cup::s000::00"
+            ],
+            "log": {
+              "query": "fastest century Men's T20 World Cup"
+            }
+          },
+          {
+            "decision": {
+              "known": "Finn Allen scored the fastest century in Men's T20 World Cup history, achieving 100* off 33 balls against South Africa on 4 March 2026.",
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search"
+        ],
+        "end": "enough",
+        "cap_hit": false,
+        "known": "Finn Allen scored the fastest century in Men's T20 World Cup history, achieving 100* off 33 balls against South Africa on 4 March 2026.",
+        "web": false,
+        "pool": [
+          "eden_gardens::s023::04",
+          "eden_gardens::s025::02",
+          "glenn_maxwell::s000::03",
+          "narendra_modi_stadium::s014::02",
+          "2024_mens_t20_world_cup::s000::00"
+        ],
+        "agent_calls": 2
+      },
+      "selfrag_picked": "A_all"
+    },
+    "chain-07": {
+      "graphrag": 1.0,
+      "now": 0.0,
+      "route": "multi",
+      "trace": "f6a_search(2024 IPL final player of the match) -> f6a_search(Mitchell Starc school) -> enough",
+      "answer": "I don't know based on the provided documents.",
+      "graphrag_answer": "The player of the match in the 2024 IPL final, Mitchell Starc, attended Homebush Boys High School [1].",
+      "cost": 0.005751299999999999,
+      "secs": 4.9,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "",
+              "enough": false,
+              "missing": "The player of the match in the 2024 IPL final and their school.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "2024 IPL final player of the match"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "2024 IPL final player of the match"
+            },
+            "note": "Library search for \"2024 IPL final player of the match\".",
+            "hits": [
+              "2024_indian_premier_league_final::s000::00",
+              "2024_indian_premier_league_final::s004::00",
+              "2024_indian_premier_league::s017::00",
+              "2024_indian_premier_league::s000::00",
+              "2023_indian_premier_league_final::s000::00"
+            ],
+            "log": {
+              "query": "2024 IPL final player of the match"
+            }
+          },
+          {
+            "decision": {
+              "known": "The player of the match in the 2024 IPL final is Mitchell Starc, who played for Kolkata Knight Riders.",
+              "enough": false,
+              "missing": "The school that Mitchell Starc attended.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Mitchell Starc school"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Mitchell Starc school"
+            },
+            "note": "Library search for \"Mitchell Starc school\".",
+            "hits": [
+              "mitchell_starc::s001::00",
+              "mitchell_starc::s000::02",
+              "mitchell_starc::s000::00",
+              "mitchell_starc::s012::00",
+              "mitchell_starc::s008::03"
+            ],
+            "log": {
+              "query": "Mitchell Starc school"
+            }
+          },
+          {
+            "decision": {
+              "known": "The player of the match in the 2024 IPL final is Mitchell Starc, who played for Kolkata Knight Riders.",
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "f6a_search"
+        ],
+        "end": "enough",
+        "cap_hit": false,
+        "known": "The player of the match in the 2024 IPL final is Mitchell Starc, who played for Kolkata Knight Riders.",
+        "web": false,
+        "pool": [
+          "2024_indian_premier_league_final::s000::00",
+          "2024_indian_premier_league_final::s004::00",
+          "2024_indian_premier_league::s017::00",
+          "2024_indian_premier_league::s000::00",
+          "2023_indian_premier_league_final::s000::00",
+          "mitchell_starc::s001::00",
+          "mitchell_starc::s000::02",
+          "mitchell_starc::s000::00",
+          "mitchell_starc::s012::00",
+          "mitchell_starc::s008::03"
+        ],
+        "agent_calls": 3
+      },
+      "selfrag_picked": "A_all"
+    },
+    "pair-01": {
+      "graphrag": 1.0,
+      "now": 1.0,
+      "route": "multi",
+      "trace": "f6a_search(Ben Stokes 2019 Cricket World Cup final score) -> f6a_search(Ben Stokes birthplace) -> enough",
+      "answer": "Ben Stokes scored 84 runs in the 2019 Cricket World Cup final [1]. He was born in Christchurch, New Zealand [6].",
+      "graphrag_answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84* runs [2]. He was born in Christchurch, New Zealand [6].",
+      "cost": 0.006535049999999999,
+      "secs": 2.7,
+      "agent": {
+        "steps": [
+          {
+            "decision": {
+              "known": "Ben Stokes",
+              "enough": false,
+              "missing": "Ben Stokes' score in the 2019 Cricket World Cup final and his birthplace",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Ben Stokes 2019 Cricket World Cup final score"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Ben Stokes 2019 Cricket World Cup final score"
+            },
+            "note": "Library search for \"Ben Stokes 2019 Cricket World Cup final score\".",
+            "hits": [
+              "2019_cricket_world_cup::s023::00",
+              "2019_cricket_world_cup_final::s010::00",
+              "2019_cricket_world_cup_final::s000::00",
+              "2019_cricket_world_cup_final::s010::04",
+              "ben_stokes::s010::01"
+            ],
+            "log": {
+              "query": "Ben Stokes 2019 Cricket World Cup final score"
+            }
+          },
+          {
+            "decision": {
+              "known": "Ben Stokes scored 84* in the 2019 Cricket World Cup final; the match was held at Lord's, London.",
+              "enough": false,
+              "missing": "Ben Stokes' birthplace.",
+              "tool": "f6a_search",
+              "args": {
+                "query": "Ben Stokes birthplace"
+              }
+            },
+            "tool": "f6a_search",
+            "args": {
+              "query": "Ben Stokes birthplace"
+            },
+            "note": "Library search for \"Ben Stokes birthplace\".",
+            "hits": [
+              "ben_stokes::s000::00",
+              "ben_stokes::s000::02",
+              "ben_stokes::s001::00",
+              "ben_stokes::s004::00",
+              "ben_stokes::s014::00"
+            ],
+            "log": {
+              "query": "Ben Stokes birthplace"
+            }
+          },
+          {
+            "decision": {
+              "known": "Ben Stokes scored 84* in the 2019 Cricket World Cup final; he was born in Christchurch, New Zealand.",
+              "enough": true,
+              "missing": "",
+              "tool": "",
+              "args": {}
+            }
+          }
+        ],
+        "tools": [
+          "f6a_search",
+          "f6a_search"
+        ],
+        "end": "enough",
+        "cap_hit": false,
+        "known": "Ben Stokes scored 84* in the 2019 Cricket World Cup final; he was born in Christchurch, New Zealand.",
+        "web": false,
+        "pool": [
+          "2019_cricket_world_cup::s023::00",
+          "2019_cricket_world_cup_final::s010::00",
+          "2019_cricket_world_cup_final::s000::00",
+          "2019_cricket_world_cup_final::s010::04",
+          "ben_stokes::s010::01",
+          "ben_stokes::s000::00",
+          "ben_stokes::s000::02",
+          "ben_stokes::s001::00",
+          "ben_stokes::s004::00",
+          "ben_stokes::s014::00"
+        ],
+        "agent_calls": 3
+      },
+      "selfrag_picked": "A_all"
+    }
+  },
+  "spend": {
+    "real_usd": 0.0253,
+    "serper_requests": 0,
+    "serper_cached": 0
+  }
+}

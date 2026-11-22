@@ -1,0 +1,997 @@
+{
+  "near": [
+    "which-01",
+    "which-04",
+    "which-05",
+    "twin-02",
+    "twin-04",
+    "pron-02",
+    "multi-02",
+    "bio-01",
+    "chain-02",
+    "chain-05",
+    "chain-06",
+    "gap-02",
+    "gap-04",
+    "trap-01",
+    "trap-04",
+    "trap-05",
+    "pair-03",
+    "alike-01",
+    "alike-03",
+    "alike-06"
+  ],
+  "wrong": [
+    "chain-06",
+    "trap-05"
+  ],
+  "cues": {
+    "which-01": {
+      "correct": 1.0,
+      "gap": 0.001,
+      "top": [
+        [
+          "indian_cricket_team_in_australia_in_2014-15::s007::m0",
+          "Indian cricket team in Australia in 2014–15 › Test series › 2nd Test (17–21 December 2014)",
+          0.749
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2014-15::s006::m0",
+          "Indian cricket team in Australia in 2014–15 › Test series › 1st Test (9–13 December 2014)",
+          0.748
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2014-15::s003::m0",
+          "Indian cricket team in Australia in 2014–15 › Tour series (24–25 November 2014)",
+          0.739
+        ]
+      ],
+      "seed_used": "Indian cricket team in Australia in 2014–15 › Test series › 2nd Test (17–21 December 2014)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "which-02": {
+      "correct": 1.0,
+      "gap": 0.007,
+      "top": [
+        [
+          "2013-14_ashes_series::s006::m0",
+          "2013–14 Ashes series › Matches › Fifth Test (3–5 January)",
+          0.785
+        ],
+        [
+          "2013_ashes_series::s007::m0",
+          "2013 Ashes series › Matches › Fifth Test (21–25 August)",
+          0.778
+        ],
+        [
+          "2013-14_ashes_series::s003::m0",
+          "2013–14 Ashes series › Matches › Second Test (5–9 December)",
+          0.763
+        ]
+      ],
+      "seed_used": "2013–14 Ashes series › Matches › Fifth Test (3–5 January)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "which-03": {
+      "correct": 1.0,
+      "gap": 0.015,
+      "top": [
+        [
+          "2023_ashes_series::s008::m0",
+          "2023 Ashes series › Matches › Second Test (28 June–2 July 2023)",
+          0.764
+        ],
+        [
+          "2013_ashes_series::s004::m0",
+          "2013 Ashes series › Matches › Second Test (18–22 July)",
+          0.749
+        ],
+        [
+          "2025-26_ashes_series::s007::m0",
+          "2025–26 Ashes series › Matches › Second Test (4–7 December 2025 (D/N))",
+          0.747
+        ]
+      ],
+      "seed_used": "2023 Ashes series › Matches › Second Test (28 June–2 July 2023)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "which-04": {
+      "correct": 1.0,
+      "gap": 0.0,
+      "top": [
+        [
+          "2023_world_test_championship_final::final",
+          "2023 World Test Championship final",
+          0.724
+        ],
+        [
+          "2023_ashes_series::s014::m0",
+          "2023 Ashes series › Matches › Third Test (6–10 July 2023)",
+          0.724
+        ],
+        [
+          "2023_cricket_world_cup_final::final",
+          "2023 Cricket World Cup final",
+          0.712
+        ]
+      ],
+      "seed_used": "2023 World Test Championship final",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "which-05": {
+      "correct": 1.0,
+      "gap": 0.001,
+      "top": [
+        [
+          "2019_ashes_series::s003::m0",
+          "2019 Ashes series › Matches › First Test (1–5 August 2019)",
+          0.672
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2020-21::s004::m0",
+          "Indian cricket team in Australia in 2020–21 › ODI series › 1st ODI (27 November 2020; 14:40 (D/N))",
+          0.671
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2020-21::s010::m0",
+          "Indian cricket team in Australia in 2020–21 › Test series › 1st Test (17–21 December 2020 (D/N))",
+          0.671
+        ]
+      ],
+      "seed_used": "2019 Ashes series › Matches › First Test (1–5 August 2019)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "twin-02": {
+      "correct": 1.0,
+      "gap": 0.003,
+      "top": [
+        [
+          "indian_cricket_team_in_australia_in_2018-19::s007::m0",
+          "Indian cricket team in Australia in 2018–19 › Test series › 1st Test (6–10 December 2018)",
+          0.786
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2018-19::s011::m0",
+          "Indian cricket team in Australia in 2018–19 › ODI series › 1st ODI (12 January 2019; 13:20 (D/N))",
+          0.783
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2018-19::s012::m0",
+          "Indian cricket team in Australia in 2018–19 › ODI series › 2nd ODI (15 January 2019; 13:50 (D/N))",
+          0.758
+        ]
+      ],
+      "seed_used": "Indian cricket team in Australia in 2018–19 › Test series › 1st Test (6–10 December 2018)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "twin-03": {
+      "correct": 1.0,
+      "gap": 0.042,
+      "top": [
+        [
+          "2017_indian_premier_league_final::final",
+          "2017 Indian Premier League final",
+          0.775
+        ],
+        [
+          "2021_indian_premier_league_final::final",
+          "2021 Indian Premier League final",
+          0.733
+        ],
+        [
+          "2018_indian_premier_league_final::final",
+          "2018 Indian Premier League final",
+          0.727
+        ]
+      ],
+      "seed_used": "2017 Indian Premier League › Playoffs › Final (21 May; 20:00 (D/N))",
+      "action": "CORRECT",
+      "ircot_fallback": true
+    },
+    "twin-04": {
+      "correct": 1.0,
+      "gap": 0.001,
+      "top": [
+        [
+          "indian_cricket_team_in_australia_in_2020-21::s014::m0",
+          "Indian cricket team in Australia in 2020–21 › Test series › 2nd Test (26–30 December 2020)",
+          0.691
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2020-21::s004::m0",
+          "Indian cricket team in Australia in 2020–21 › ODI series › 1st ODI (27 November 2020; 14:40 (D/N))",
+          0.69
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2020-21::s010::m0",
+          "Indian cricket team in Australia in 2020–21 › Test series › 1st Test (17–21 December 2020 (D/N))",
+          0.689
+        ]
+      ],
+      "seed_used": "Indian cricket team in Australia in 2020–21 › Test series › 2nd Test (26–30 December 2020)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "pron-02": {
+      "correct": 1.0,
+      "gap": 0.003,
+      "top": [
+        [
+          "indian_cricket_team_in_england_in_2014::s009::m0",
+          "Indian cricket team in England in 2014 › Test series › 5th Test (15–19 August 2014)",
+          0.772
+        ],
+        [
+          "indian_cricket_team_in_england_in_2014::s014::m0",
+          "Indian cricket team in England in 2014 › ODI series › 5th ODI (5 September 2014; 10:30)",
+          0.769
+        ],
+        [
+          "indian_cricket_team_in_england_in_2014::s010::m0",
+          "Indian cricket team in England in 2014 › ODI series › 1st ODI (25 August 2014; 10:30)",
+          0.751
+        ]
+      ],
+      "seed_used": "Indian cricket team in England in 2014 › Test series › 5th Test (15–19 August 2014)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "pron-03": {
+      "correct": 1.0,
+      "gap": 0.018,
+      "top": [
+        [
+          "2013_ashes_series::s004::m0",
+          "2013 Ashes series › Matches › Second Test (18–22 July)",
+          0.821
+        ],
+        [
+          "2013-14_ashes_series::s003::m0",
+          "2013–14 Ashes series › Matches › Second Test (5–9 December)",
+          0.803
+        ],
+        [
+          "2019_ashes_series::s010::m0",
+          "2019 Ashes series › Matches › Second Test (14–18 August 2019)",
+          0.784
+        ]
+      ],
+      "seed_used": "2013 Ashes series › Matches › Second Test (18–22 July)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "multi-01": {
+      "correct": 1.0,
+      "gap": 0.014,
+      "top": [
+        [
+          "2023_cricket_world_cup_final::final",
+          "2023 Cricket World Cup final",
+          0.73
+        ],
+        [
+          "2023_cricket_world_cup::s019::m0",
+          "2023 Cricket World Cup › Knockout stage › Final (19 November 2023; 14:00 (D/N))",
+          0.716
+        ],
+        [
+          "2023_cricket_world_cup_group_stage::s008::m0",
+          "2023 Cricket World Cup group stage › Matches › Australia vs India (8 October 2023; 14:00 (D/N))",
+          0.711
+        ]
+      ],
+      "seed_used": "2023 Cricket World Cup final",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "multi-02": {
+      "correct": 1.0,
+      "gap": 0.002,
+      "top": [
+        [
+          "indian_cricket_team_in_australia_in_2020-21::s019::m0",
+          "Indian cricket team in Australia in 2020–21 › Test series › 3rd Test (7–11 January 2021)",
+          0.678
+        ],
+        [
+          "indian_cricket_team_in_england_in_2021::s003::m0",
+          "Indian cricket team in England in 2021 › Test series › 1st Test (4–8 August 2021)",
+          0.676
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2018-19::s007::m0",
+          "Indian cricket team in Australia in 2018–19 › Test series › 1st Test (6–10 December 2018)",
+          0.675
+        ]
+      ],
+      "seed_used": "Indian cricket team in Australia in 2020–21 › Test series › 3rd Test (7–11 January 2021)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "multi-03": {
+      "correct": 1.0,
+      "gap": 0.012,
+      "top": [
+        [
+          "2019_ashes_series::s021::m0",
+          "2019 Ashes series › Matches › Fourth Test (4–8 September 2019)",
+          0.731
+        ],
+        [
+          "2017-18_ashes_series::s006::m0",
+          "2017–18 Ashes series › Matches › Fourth Test (26–30 December 2017)",
+          0.719
+        ],
+        [
+          "2023_ashes_series::s019::m0",
+          "2023 Ashes series › Matches › Fourth Test (19–23 July 2023)",
+          0.71
+        ]
+      ],
+      "seed_used": "2019 Ashes series › Matches › Fourth Test (4–8 September 2019)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "multi-04": {
+      "correct": 1.0,
+      "gap": 0.007,
+      "top": [
+        [
+          "2017_champions_trophy::s013::m0",
+          "2017 Champions Trophy › Knockout stage › Final (18 June 2017; 10:30)",
+          0.761
+        ],
+        [
+          "2017_champions_trophy_final::final",
+          "2017 Champions Trophy final",
+          0.754
+        ],
+        [
+          "2017_champions_trophy::s012::m1",
+          "2017 Champions Trophy › Knockout stage › Semi-finals (15 June 2017; 10:30)",
+          0.738
+        ]
+      ],
+      "seed_used": "2017 Champions Trophy › Knockout stage › Final (18 June 2017; 10:30)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "bio-01": {
+      "correct": 1.0,
+      "gap": 0.004,
+      "top": [
+        [
+          "2019_ashes_series::s003::m0",
+          "2019 Ashes series › Matches › First Test (1–5 August 2019)",
+          0.687
+        ],
+        [
+          "2015_ashes_series::s003::m0",
+          "2015 Ashes series › Matches › First Test (8–12 July)",
+          0.683
+        ],
+        [
+          "2017-18_ashes_series::s003::m0",
+          "2017–18 Ashes series › Matches › First Test (23–27 November 2017)",
+          0.673
+        ]
+      ],
+      "seed_used": "2019 Ashes series › Matches › First Test (1–5 August 2019)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "bio-03": {
+      "correct": 1.0,
+      "gap": 0.013,
+      "top": [
+        [
+          "2023_ashes_series::s019::m0",
+          "2023 Ashes series › Matches › Fourth Test (19–23 July 2023)",
+          0.813
+        ],
+        [
+          "2019_ashes_series::s021::m0",
+          "2019 Ashes series › Matches › Fourth Test (4–8 September 2019)",
+          0.8
+        ],
+        [
+          "2025-26_ashes_series::s009::m0",
+          "2025–26 Ashes series › Matches › Fourth Test (26–27 December 2025)",
+          0.795
+        ]
+      ],
+      "seed_used": "2023 Ashes series › Matches › Fourth Test (19–23 July 2023)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "chain-01": {
+      "correct": 1.0,
+      "gap": 0.033,
+      "top": [
+        [
+          "2023_world_test_championship_final::final",
+          "2023 World Test Championship final",
+          0.81
+        ],
+        [
+          "2025_world_test_championship_final::final",
+          "2025 World Test Championship final",
+          0.777
+        ],
+        [
+          "2023_cricket_world_cup_final::final",
+          "2023 Cricket World Cup final",
+          0.77
+        ]
+      ],
+      "seed_used": "2023 World Test Championship final",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "chain-02": {
+      "correct": 1.0,
+      "gap": 0.001,
+      "top": [
+        [
+          "wankhede_stadium::s011::m1",
+          "Wankhede Stadium › Cricket World Cup › 2011 Cricket World Cup (18 March 2011)",
+          0.759
+        ],
+        [
+          "wankhede_stadium::s011::m0",
+          "Wankhede Stadium › Cricket World Cup › 2011 Cricket World Cup (13 March 2011)",
+          0.758
+        ],
+        [
+          "wankhede_stadium::s012::m0",
+          "Wankhede Stadium › Cricket World Cup › 2011 Cricket World Cup › Finals (2 April 2011)",
+          0.744
+        ]
+      ],
+      "seed_used": "Wankhede Stadium › Cricket World Cup › 2011 Cricket World Cup (18 March 2011)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "chain-03": {
+      "correct": 1.0,
+      "gap": 0.019,
+      "top": [
+        [
+          "2025_indian_premier_league_final::final",
+          "2025 Indian Premier League final",
+          0.791
+        ],
+        [
+          "2025_indian_premier_league::s017::m0",
+          "2025 Indian Premier League › Playoffs › Final (Final; 3 June 2025 (2025-06-03); 19:30 (N))",
+          0.772
+        ],
+        [
+          "2025_champions_trophy::s030::m0",
+          "2025 Champions Trophy › Knockout stage › Semi-finals › Australia vs India (4 March 2025; 13:00 UTC+4 (D/N))",
+          0.765
+        ]
+      ],
+      "seed_used": "2025 Indian Premier League final",
+      "action": "AMBIGUOUS",
+      "ircot_fallback": false
+    },
+    "chain-04": {
+      "correct": 1.0,
+      "gap": 0.023,
+      "top": [
+        [
+          "indian_cricket_team_in_england_in_2025::s006::m0",
+          "Indian cricket team in England in 2025 › Test series › 1st Test (20–24 June 2025)",
+          0.772
+        ],
+        [
+          "indian_cricket_team_in_england_in_2025::s010::m0",
+          "Indian cricket team in England in 2025 › Test series › 5th Test (31 July – 4 August 2025)",
+          0.749
+        ],
+        [
+          "indian_cricket_team_in_england_in_2025::s007::m0",
+          "Indian cricket team in England in 2025 › Test series › 2nd Test (2–6 July 2025)",
+          0.744
+        ]
+      ],
+      "seed_used": "Indian cricket team in England in 2025 › Test series › 1st Test (20–24 June 2025)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "chain-05": {
+      "correct": 1.0,
+      "gap": 0.002,
+      "top": [
+        [
+          "2025-26_ashes_series::s006::m0",
+          "2025–26 Ashes series › Matches › First Test (21–22 November 2025)",
+          0.789
+        ],
+        [
+          "2019_ashes_series::s003::m0",
+          "2019 Ashes series › Matches › First Test (1–5 August 2019)",
+          0.787
+        ],
+        [
+          "2023_ashes_series::s002::m0",
+          "2023 Ashes series › Matches › First Test (16–20 June 2023)",
+          0.787
+        ]
+      ],
+      "seed_used": "2025–26 Ashes series › Matches › First Test (21–22 November 2025)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "chain-06": {
+      "correct": 0.5,
+      "gap": 0.003,
+      "top": [
+        [
+          "indian_cricket_team_in_australia_in_2024-25::s009::m0",
+          "Indian cricket team in Australia in 2024–25 › Test series › 1st Test (22–25 November 2024)",
+          0.758
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2024-25::s010::m0",
+          "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))",
+          0.755
+        ],
+        [
+          "2019_ashes_series::s003::m0",
+          "2019 Ashes series › Matches › First Test (1–5 August 2019)",
+          0.739
+        ]
+      ],
+      "seed_used": "Indian cricket team in Australia in 2024–25 › Test series › 1st Test (22–25 November 2024)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "chain-07": {
+      "correct": 1.0,
+      "gap": 0.047,
+      "top": [
+        [
+          "2024_indian_premier_league_final::final",
+          "2024 Indian Premier League final",
+          0.789
+        ],
+        [
+          "2024_mens_t20_world_cup_final::final",
+          "2024 Men's T20 World Cup final",
+          0.742
+        ],
+        [
+          "2024_indian_premier_league::s017::m0",
+          "2024 Indian Premier League › Playoffs › Final (Final; 26 May 2024; 19:30 (N))",
+          0.738
+        ]
+      ],
+      "seed_used": "2024 Indian Premier League final",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "chain-08": {
+      "correct": 1.0,
+      "gap": 0.029,
+      "top": [
+        [
+          "indian_cricket_team_in_australia_in_2024-25::s009::m0",
+          "Indian cricket team in Australia in 2024–25 › Test series › 1st Test (22–25 November 2024)",
+          0.779
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2024-25::s012::m0",
+          "Indian cricket team in Australia in 2024–25 › Test series › 4th Test (26–30 December 2024)",
+          0.75
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2024-25::s013::m0",
+          "Indian cricket team in Australia in 2024–25 › Test series › 5th Test (3–5 January 2025)",
+          0.747
+        ]
+      ],
+      "seed_used": "Indian cricket team in Australia in 2024–25 › Test series › 1st Test (22–25 November 2024)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "gap-02": {
+      "correct": 1.0,
+      "gap": 0.004,
+      "top": [
+        [
+          "2025_indian_premier_league::s012::m40",
+          "2025 Indian Premier League › League stage › Fixtures (Match 41; 23 April 2025 (2025-04-23); 19:30 (N))",
+          0.669
+        ],
+        [
+          "2025_indian_premier_league::s017::m0",
+          "2025 Indian Premier League › Playoffs › Final (Final; 3 June 2025 (2025-06-03); 19:30 (N))",
+          0.665
+        ],
+        [
+          "2025_champions_trophy::s017::m0",
+          "2025 Champions Trophy › Group stage › Group A › India vs Pakistan (23 February 2025; 13:00 UTC+4 (D/N))",
+          0.663
+        ]
+      ],
+      "seed_used": "2025 Indian Premier League › League stage › Fixtures (Match 41; 23 April 2025 (2025-04-23); 19:30 (N))",
+      "action": "INCORRECT",
+      "ircot_fallback": true
+    },
+    "gap-04": {
+      "correct": 1.0,
+      "gap": 0.004,
+      "top": [
+        [
+          "2021-22_ashes_series::s015::m0",
+          "2021–22 Ashes series › Matches › Third Test (26–30 December 2021)",
+          0.691
+        ],
+        [
+          "2017-18_ashes_series::s005::m0",
+          "2017–18 Ashes series › Matches › Third Test (14–18 December 2017)",
+          0.687
+        ],
+        [
+          "2017-18_ashes_series::s007::m0",
+          "2017–18 Ashes series › Matches › Fifth Test (4–8 January 2018)",
+          0.687
+        ]
+      ],
+      "seed_used": "2021–22 Ashes series › Matches › Third Test (26–30 December 2021)",
+      "action": "AMBIGUOUS",
+      "ircot_fallback": false
+    },
+    "gap-06": {
+      "correct": 1.0,
+      "gap": 0.01,
+      "top": [
+        [
+          "indian_cricket_team_in_australia_in_2018-19::s002::m0",
+          "Indian cricket team in Australia in 2018–19 › T20I series › 1st T20I (21 November 2018; 17:50 (D/N))",
+          0.707
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2018-19::s003::m0",
+          "Indian cricket team in Australia in 2018–19 › T20I series › 2nd T20I (23 November 2018; 18:50 (N))",
+          0.697
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2020-21::s007::m0",
+          "Indian cricket team in Australia in 2020–21 › T20I series › 1st T20I (4 December 2020; 19:10 (N))",
+          0.697
+        ]
+      ],
+      "seed_used": "Indian cricket team in Australia in 2018–19 › T20I series › 1st T20I (21 November 2018; 17:50 (D/N))",
+      "action": "INCORRECT",
+      "ircot_fallback": true
+    },
+    "trap-01": {
+      "correct": 1.0,
+      "gap": 0.002,
+      "top": [
+        [
+          "indian_cricket_team_in_england_in_2014::s005::m0",
+          "Indian cricket team in England in 2014 › Test series › 1st Test (9–13 July 2014)",
+          0.681
+        ],
+        [
+          "indian_cricket_team_in_australia_in_2014-15::s006::m0",
+          "Indian cricket team in Australia in 2014–15 › Test series › 1st Test (9–13 December 2014)",
+          0.679
+        ],
+        [
+          "indian_cricket_team_in_england_in_2014::s009::m0",
+          "Indian cricket team in England in 2014 › Test series › 5th Test (15–19 August 2014)",
+          0.679
+        ]
+      ],
+      "seed_used": "Indian cricket team in England in 2014 › Test series › 1st Test (9–13 July 2014)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "trap-04": {
+      "correct": 1.0,
+      "gap": 0.001,
+      "top": [
+        [
+          "2015_cricket_world_cup_final::final",
+          "2015 Cricket World Cup final",
+          0.795
+        ],
+        [
+          "2015_cricket_world_cup::s021::m1",
+          "2015 Cricket World Cup › Knockout stage › Matches › Semi-finals (26 March; 14:30 (AEDT) (D/N))",
+          0.794
+        ],
+        [
+          "2015_cricket_world_cup::s021::m0",
+          "2015 Cricket World Cup › Knockout stage › Matches › Semi-finals (24 March; 14:00 (NZDT) (D/N))",
+          0.789
+        ]
+      ],
+      "seed_used": "2015 Cricket World Cup final",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "trap-05": {
+      "correct": 0.0,
+      "gap": 0.003,
+      "top": [
+        [
+          "indian_cricket_team_in_england_in_2014::s010::m0",
+          "Indian cricket team in England in 2014 › ODI series › 1st ODI (25 August 2014; 10:30)",
+          0.757
+        ],
+        [
+          "indian_cricket_team_in_england_in_2014::s005::m0",
+          "Indian cricket team in England in 2014 › Test series › 1st Test (9–13 July 2014)",
+          0.754
+        ],
+        [
+          "indian_cricket_team_in_england_in_2018::s005::m0",
+          "Indian cricket team in England in 2018 › ODI series › 1st ODI (12 July 2018; 12:30)",
+          0.753
+        ]
+      ],
+      "seed_used": "Indian cricket team in England in 2025 › Test series › 2nd Test (2–6 July 2025)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "pair-01": {
+      "correct": 1.0,
+      "gap": 0.031,
+      "top": [
+        [
+          "2019_cricket_world_cup_final::final",
+          "2019 Cricket World Cup final",
+          0.754
+        ],
+        [
+          "2019_cricket_world_cup::s023::m0",
+          "2019 Cricket World Cup › Knockout stage › Final (14 July 2019; 10:30)",
+          0.723
+        ],
+        [
+          "2019_cricket_world_cup::s021::m0",
+          "2019 Cricket World Cup › Knockout stage › Semi-finals › Semifinal 1 (9–10 July 2019; 10:30)",
+          0.72
+        ]
+      ],
+      "seed_used": "2019 Cricket World Cup final",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "pair-02": {
+      "correct": 1.0,
+      "gap": 0.035,
+      "top": [
+        [
+          "2012_indian_premier_league_final::final",
+          "2012 Indian Premier League final",
+          0.77
+        ],
+        [
+          "english_cricket_team_in_india_in_2012-13::s019::m0",
+          "English cricket team in India in 2012–13 › ODI series › 5th ODI (27 January 2013; 09:00)",
+          0.735
+        ],
+        [
+          "2012_world_twenty20_final::final",
+          "2012 World Twenty20 final",
+          0.733
+        ]
+      ],
+      "seed_used": "2012 Indian Premier League final",
+      "action": "AMBIGUOUS",
+      "ircot_fallback": false
+    },
+    "pair-03": {
+      "correct": 1.0,
+      "gap": 0.004,
+      "top": [
+        [
+          "2010_indian_premier_league_final::final",
+          "2010 Indian Premier League final",
+          0.723
+        ],
+        [
+          "2010_indian_premier_league::s012::m0",
+          "2010 Indian Premier League › Playoffs › Final (25 April 2010)",
+          0.719
+        ],
+        [
+          "2010_indian_premier_league::s009::m0",
+          "2010 Indian Premier League › Playoffs › Semi-final 1 (21 April 2010)",
+          0.701
+        ]
+      ],
+      "seed_used": "2013 Indian Premier League final",
+      "action": "AMBIGUOUS",
+      "ircot_fallback": false
+    },
+    "pair-04": {
+      "correct": 1.0,
+      "gap": 0.009,
+      "top": [
+        [
+          "2015_ashes_series::s007::m0",
+          "2015 Ashes series › Matches › Fifth Test (20–24 August)",
+          0.676
+        ],
+        [
+          "2015_ashes_series::s006::m0",
+          "2015 Ashes series › Matches › Fourth Test (6–10 August)",
+          0.667
+        ],
+        [
+          "2015_ashes_series::s005::m0",
+          "2015 Ashes series › Matches › Third Test (29 July – 2 August)",
+          0.666
+        ]
+      ],
+      "seed_used": "2015 Ashes series › Matches › Fifth Test (20–24 August)",
+      "action": "AMBIGUOUS",
+      "ircot_fallback": false
+    },
+    "pair-05": {
+      "correct": 1.0,
+      "gap": 0.008,
+      "top": [
+        [
+          "2024_indian_premier_league_final::final",
+          "2024 Indian Premier League final",
+          0.682
+        ],
+        [
+          "2024_mens_t20_world_cup_final::final",
+          "2024 Men's T20 World Cup final",
+          0.674
+        ],
+        [
+          "2021-22_ashes_series::s019::m0",
+          "2021–22 Ashes series › Matches › Fourth Test (5–9 January 2022)",
+          0.661
+        ]
+      ],
+      "seed_used": "2024 Indian Premier League final",
+      "action": "AMBIGUOUS",
+      "ircot_fallback": false
+    },
+    "pair-06": {
+      "correct": 1.0,
+      "gap": 0.028,
+      "top": [
+        [
+          "2022_mens_t20_world_cup_final::final",
+          "2022 Men's T20 World Cup final",
+          0.736
+        ],
+        [
+          "2022_mens_t20_world_cup::s014::m1",
+          "2022 Men's T20 World Cup › Super 12 › Group 2 (24 October 2022; 15:00)",
+          0.708
+        ],
+        [
+          "2022_mens_t20_world_cup::s014::m3",
+          "2022 Men's T20 World Cup › Super 12 › Group 2 (27 October 2022; 14:00)",
+          0.707
+        ]
+      ],
+      "seed_used": "2022 Men's T20 World Cup final",
+      "action": "AMBIGUOUS",
+      "ircot_fallback": false
+    },
+    "alike-01": {
+      "correct": 1.0,
+      "gap": 0.004,
+      "top": [
+        [
+          "indian_cricket_team_in_australia_in_2018-19::s011::m0",
+          "Indian cricket team in Australia in 2018–19 › ODI series › 1st ODI (12 January 2019; 13:20 (D/N))",
+          0.681
+        ],
+        [
+          "2019_cricket_world_cup::s023::m0",
+          "2019 Cricket World Cup › Knockout stage › Final (14 July 2019; 10:30)",
+          0.677
+        ],
+        [
+          "2025_champions_trophy::s016::m0",
+          "2025 Champions Trophy › Group stage › Group A › Bangladesh vs India (20 February 2025; 13:00 UTC+4 (D/N))",
+          0.676
+        ]
+      ],
+      "seed_used": "Indian cricket team in Australia in 2018–19 › ODI series › 1st ODI (12 January 2019; 13:20 (D/N))",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "alike-03": {
+      "correct": 1.0,
+      "gap": 0.003,
+      "top": [
+        [
+          "2019_cricket_world_cup::s021::m0",
+          "2019 Cricket World Cup › Knockout stage › Semi-finals › Semifinal 1 (9–10 July 2019; 10:30)",
+          0.726
+        ],
+        [
+          "2019_cricket_world_cup::s022::m0",
+          "2019 Cricket World Cup › Knockout stage › Semi-finals › Semifinal 2 (11 July 2019; 10:30)",
+          0.723
+        ],
+        [
+          "2019_cricket_world_cup_group_stage::s034::m0",
+          "2019 Cricket World Cup group stage › Matches › England vs Australia (25 June 2019; 10:30)",
+          0.711
+        ]
+      ],
+      "seed_used": "2019 Cricket World Cup › Knockout stage › Semi-finals › Semifinal 1 (9–10 July 2019; 10:30)",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    },
+    "alike-06": {
+      "correct": 1.0,
+      "gap": 0.003,
+      "top": [
+        [
+          "2022_mens_t20_world_cup_final::final",
+          "2022 Men's T20 World Cup final",
+          0.726
+        ],
+        [
+          "2021_mens_t20_world_cup_final::final",
+          "2021 Men's T20 World Cup final",
+          0.723
+        ],
+        [
+          "2022_mens_t20_world_cup::s017::m0",
+          "2022 Men's T20 World Cup › Knockout stage › Final (13 November 2022; 19:00 (N))",
+          0.712
+        ]
+      ],
+      "seed_used": "2022 Men's T20 World Cup final",
+      "action": "CORRECT",
+      "ircot_fallback": false
+    }
+  },
+  "wiring": {
+    "graph_walk": {
+      "hits": [
+        "mitchell_starc::s001::00",
+        "2024_indian_premier_league_final::s000::00",
+        "mitchell_starc::s003::03",
+        "mitchell_starc::s009::02",
+        "2024_indian_premier_league::s000::00"
+      ],
+      "note": "Started from the match name closest to the question. Closest match names (similarity): \"2024 Indian Premier League final\" (0.789); \"2024 Men's T20 World Cup final\" (0.742); \"2024 Indian Premier League › Playoffs › Final (Final; 26 May 2024; 19:30 (N))\" (0.738).\nWalked from \"2024 Indian Premier League final\" along the record line \"Player of the match: Mitchell Starc (KKR)\" to the article \"Mitchell Starc\"."
+    },
+    "ircot": {
+      "hits": [
+        "2024_indian_premier_league_final::s000::00",
+        "2024_indian_premier_league_final::s004::00",
+        "2024_indian_premier_league::s017::00",
+        "2024_indian_premier_league::s000::00",
+        "2024_indian_premier_league_final::s001::00",
+        "mitchell_starc::s002::03",
+        "mitchell_starc::s001::00",
+        "mitchell_starc::s000::02",
+        "mitchell_starc::s007::03",
+        "mitchell_starc::s005::00",
+        "mitchell_starc::s003::01",
+        "mitchell_starc::s004::00",
+        "mitchell_starc::s008::02"
+      ],
+      "note": "Search-reason-search loop (3 searches). Its reasoning: Mitchell Starc, the player of the match in the 2024 IPL final, attended the New South Wales Institute of Sport. Mitchell Starc attended Homebush Boys High School, where he represented the school's 1st grade cricket team. Homebush Boys High School is where Mitchell Starc began his cricket journey."
+    }
+  },
+  "prompt_tokens": 939
+}
