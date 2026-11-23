@@ -1,0 +1,1493 @@
+{
+  "GraphRAG FINAL": {
+    "with_selfrag": [
+      0.9423076923076923,
+      0.9358974358974359
+    ],
+    "without_selfrag": [
+      0.9423076923076923,
+      0.9358974358974359
+    ],
+    "flips": {},
+    "differ": [
+      "chain-02",
+      "alike-05"
+    ],
+    "questions": {
+      "which-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In India's second innings of the first Test at Adelaide, Murali Vijay was out lbw for 99 runs [1].",
+        "same": true
+      },
+      "which-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Michael Carberry top-scored for England in their second innings of the fifth Test with 43 runs, and England made a total of 166 runs in that innings [1].",
+        "same": true
+      },
+      "which-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, Joe Root was stumped by wicketkeeper Alex Carey off the bowling of Nathan Lyon for a score of 46 runs [1].",
+        "same": true
+      },
+      "which-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2023 World Test Championship final at The Oval, Ajinkya Rahane was out for 89 runs, and he was caught by Cameron Green [2].",
+        "same": true
+      },
+      "which-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Washington Sundar and Shardul Thakur added 123 runs together in India's first innings during the Gabba Test of India's 2020–21 tour of Australia [1].",
+        "same": true
+      },
+      "which-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2011 Cricket World Cup final, MS Dhoni and Gautam Gambhir added 109 runs together for the fourth wicket partnership [2].",
+        "same": true
+      },
+      "twin-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Virat Kohli was run out for 74 runs in India's first innings of the day-night Adelaide Test in December 2020. He was stranded in the middle of the pitch after a mix-up with Ajinkya Rahane, leading to his dismissal by Josh Hazlewood and Nathan Lyon breaking the stumps [1].",
+        "same": true
+      },
+      "twin-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara top-scored for India in their first innings of the Adelaide Test of the 2018–19 series with a score of 123 runs off 246 balls [1].",
+        "same": true
+      },
+      "twin-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2017 IPL final, Mitchell Johnson bowled the last over for the Mumbai Indians, and the Rising Pune Supergiant needed 11 runs from it to win the match [6].",
+        "same": true
+      },
+      "twin-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Ajinkya Rahane scored a century for India in the Boxing Day Test at the MCG in December 2020, finishing with 112 runs off 223 balls. His innings ended when he was dismissed, as he did not remain not out [1][3].",
+        "same": true
+      },
+      "twin-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Carlos Brathwaite scored 101 runs for the West Indies against New Zealand at the 2019 Cricket World Cup [1].",
+        "same": true
+      },
+      "pron-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Josh Hazlewood took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes, with figures of 5/30 in 12.5 overs [1].",
+        "same": true
+      },
+      "pron-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the fifth Test of India's 2014 tour of England at The Oval, MS Dhoni and Ishant Sharma put on a last-wicket partnership worth 58 runs in India's first innings [1].",
+        "same": true
+      },
+      "pron-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "At stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, England's score was 1/35, and Mitchell Johnson had taken the wicket of Alastair Cook [2].",
+        "same": true
+      },
+      "pron-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "On the third morning of the December 2020 Adelaide Test, Jasprit Bumrah was caught and bowled by Pat Cummins for 2 runs in the second over of the day [1].",
+        "same": true
+      },
+      "pron-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Australia set England a target of 509 runs in the Lord's Test of the 2015 Ashes [1].",
+        "same": true
+      },
+      "num-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020 were 5 wickets for 8 runs in 5 overs [1].",
+        "same": true
+      },
+      "num-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Ben Stokes faced 219 balls for his unbeaten 135 in the Headingley Test of the 2019 Ashes [2].",
+        "same": true
+      },
+      "num-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018 were 6 wickets for 33 runs in 15.5 overs [1].",
+        "same": true
+      },
+      "num-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad were 5 wickets for 59 runs in 10 overs [1].",
+        "same": true
+      },
+      "num-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Sunrisers Hyderabad made a total of 208 runs for 7 wickets while batting first in the 2016 IPL final [1].",
+        "same": true
+      },
+      "multi-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2023 Cricket World Cup final, Rohit Sharma scored 47 runs for India, while Travis Head made 137 runs in Australia's chase [1][3].",
+        "same": true
+      },
+      "multi-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the Gabba Test of January 2021, India chased a target of 328 runs on the last day. Shubman Gill scored 91 runs in the chase [1][2].",
+        "same": true
+      },
+      "multi-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "On the fourth day of the Headingley Test in the 2019 Ashes, Joe Root made 77 runs before being out, and Jonny Bairstow scored 36 runs before his dismissal [1].",
+        "same": true
+      },
+      "multi-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Fakhar Zaman was reprieved by a no-ball when he was on a score of 3 runs, and he went on to make 114 runs from 106 balls [1].",
+        "same": true
+      },
+      "bio-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jasprit Bumrah's first Test wicket was AB de Villiers, and he made his Test debut at Newlands in Cape Town on 5 January 2018 [1].",
+        "same": true
+      },
+      "bio-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Nathan Lyon's first Test wicket was Kumar Sangakkara, which he took on 1 September 2011 during his debut match against Sri Lanka at Galle [1].",
+        "same": true
+      },
+      "bio-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Perth Stadium was announced to host the first Test of the 2025–26 Men's Ashes in October 2024. This marked the first time Perth Stadium hosted an Ashes Test [1].",
+        "same": true
+      },
+      "none-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "rule-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In a Twenty20 match, if both teams finish with the same score, the winner is decided by a Super Over, where each team bats for one additional over, and the team with the higher score in that Super Over wins.",
+        "same": true
+      },
+      "rule-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Australia and England contest the Ashes.",
+        "same": true
+      },
+      "rule-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Duckworth–Lewis method is used in cricket to calculate target scores in rain-affected matches, ensuring a fair outcome when the game cannot be completed as originally planned.",
+        "same": true
+      },
+      "fame-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "India won the 2011 Cricket World Cup.",
+        "same": true
+      },
+      "fame-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Rajasthan Royals won the first IPL season in 2008.",
+        "same": true
+      },
+      "fame-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Brett Lee took the first ever hat-trick in a T20I match during the match between Bangladesh and Australia on 16 September 2007 [1].",
+        "same": true
+      },
+      "recent-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "India won the 2024 Men's T20 World Cup by defeating South Africa by 7 runs in the final held on 29 June 2024 at Kensington Oval, Bridgetown [1].",
+        "same": true
+      },
+      "recent-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Royal Challengers Bengaluru won the 2025 Indian Premier League by defeating Punjab Kings by 6 runs in the final on 3 June 2025 [2].",
+        "same": true
+      },
+      "chain-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The two ends of The Oval, which hosted the 2023 World Test Championship final, are called the Vauxhall End and the Pavilion End [1].",
+        "same": true
+      },
+      "chain-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Wankhede Stadium was built in approximately 13 months and opened in time for the final Test between India and the West Indies in 1975 [1].",
+        "same": false,
+        "selfrag_answer": "It took approximately 13 months to build Wankhede Stadium, which opened in time for the final Test between India and the West Indies in 1975 [1].",
+        "selfrag_correct": 1.0,
+        "picked": "A1"
+      },
+      "chain-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The stadium that hosted the 2025 IPL final, Narendra Modi Stadium, was opened by Indian president Ram Nath Kovind on 24 February 2021 [2].",
+        "same": true
+      },
+      "chain-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The spectator capacity of Headingley Cricket Ground, which hosted the first Test of India's 2025 tour of England, is 18,350 [2].",
+        "same": true
+      },
+      "chain-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The stadium that hosted the first Test of the 2025–26 Ashes, Perth Stadium, was officially opened on 21 January 2018 [2].",
+        "same": true
+      },
+      "chain-06": {
+        "correct": 0.5,
+        "correct3": 0.0,
+        "answer": "The first Test match was played at Adelaide Oval in 1884 [3]. The second Test of India's 2024–25 tour of Australia was held at Perth Stadium [6].",
+        "same": true
+      },
+      "chain-07": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The player of the match in the 2024 IPL final, Mitchell Starc, attended Homebush Boys High School [1].",
+        "same": true
+      },
+      "chain-08": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The stadium that hosted the first Test of India's 2024–25 tour of Australia, Perth Stadium, can hold a total capacity of 61,266, which can be extended to 65,000 seats for rectangular sports [1][5].",
+        "same": true
+      },
+      "gap-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara announced his retirement from all forms of cricket on 24 August 2025 [2].",
+        "same": true
+      },
+      "gap-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara joined the BBC Test Match Special commentary team as a colour commentator/analyst for the first test of the series between England and India at Headingley in June 2025 [1].",
+        "same": true
+      },
+      "gap-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Rishabh Pant was traded from Lucknow Super Giants to Delhi Capitals in exchange for Kuldeep Yadav [1].",
+        "same": true
+      },
+      "gap-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Kane Williamson retired from all international cricket on 12 June 2026. In his last match, he scored 0 and 18 against England at Lords [7].",
+        "same": true
+      },
+      "gap-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Kane Williamson became the first male direct signing for London Spirit in The Hundred 2025 [1].",
+        "same": true
+      },
+      "gap-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Suryakumar Yadav scored 242 runs across five innings in India's home T20I series against New Zealand in January 2026, and he was awarded the player of the series [1].",
+        "same": true
+      },
+      "trap-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest individual Test score by an Indian captain is 269 runs, made by Shubman Gill during the match between India and England at Edgbaston, Birmingham, from 2–6 July 2025 [1].",
+        "same": true
+      },
+      "trap-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Krunal Pandya scored the fastest fifty on debut in ODIs off 26 balls [1].",
+        "same": true
+      },
+      "trap-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest Test score by an Australian captain in India is 178 not out, achieved by Steve Smith during the 3rd Test match against India at the JSCA International Stadium Complex, Ranchi, from 16–20 March 2017 [1][3].",
+        "same": true
+      },
+      "trap-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "As of the 2015 Cricket World Cup, the highest team total in a World Cup semi-final was 328/7, made by Australia [1].",
+        "same": true
+      },
+      "trap-05": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "The highest individual Test score by an Indian batter against England is 235 runs, made by Virat Kohli during the 4th Test at Wankhede Stadium, Mumbai, from 8–12 December 2016 [2].",
+        "same": true
+      },
+      "trap-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Alex Carey (Aus) took the most catches, with a total of 8, by a wicketkeeper on debut during the 2021–22 Ashes series at The Gabba, Brisbane [1].",
+        "same": true
+      },
+      "pair-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84* runs [2]. He was born in Christchurch, New Zealand [6].",
+        "same": true
+      },
+      "pair-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The player of the match in the 2012 IPL final was Manvinder Bisla from Kolkata Knight Riders [1]. The player with the most wickets in the 2012 IPL season was Morné Morkel, who took 25 wickets [4].",
+        "same": true
+      },
+      "pair-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Chennai Super Kings won the 2010 IPL final by 22 runs [1]. Sachin Tendulkar scored 618 runs during the 2010 IPL season [2].",
+        "same": true
+      },
+      "pair-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "James Anderson took 704 Test wickets in his career [1]. Stuart Broad's figures when Australia were bowled out for 60 at Trent Bridge in 2015 were 8 wickets for 15 runs in 9.3 overs [2].",
+        "same": true
+      },
+      "pair-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Pat Cummins was born in Westmead, New South Wales, Australia. In the 2024 IPL final, he scored 24 runs off 19 balls [2].",
+        "same": true
+      },
+      "pair-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jos Buttler was appointed captain of England's ODI and T20I teams on 30 June 2022 [1]. The player of the match in the 2022 Men's T20 World Cup final was Sam Curran [2].",
+        "same": true
+      },
+      "alike-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest individual score in ICC Champions Trophy history is 177, made by Ibrahim Zadran of Afghanistan on 26 February 2025 against England [1].",
+        "same": true
+      },
+      "alike-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The fastest century in ICC Champions Trophy history was scored by David Miller of South Africa, who made his century in 67 balls during the match against New Zealand on 5 March 2025 [2].",
+        "same": true
+      },
+      "alike-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The fastest fifty in Cricket World Cup history was scored by Brendon McCullum, who reached the landmark in just 18 balls during the match between England and New Zealand on 20 February 2015 [1].",
+        "same": true
+      },
+      "alike-04": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "alike-05": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": false,
+        "selfrag_answer": "The highest individual score in an IPL match at Eden Gardens is 112 runs, made by Rajat Patidar during the match between RCB and LSG in 2022 [1].",
+        "selfrag_correct": 0.0,
+        "picked": "A3"
+      },
+      "alike-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [1].",
+        "same": true
+      },
+      "sure-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Darren Sammy captained the West Indies when they won the 2012 World Twenty20.",
+        "same": true
+      },
+      "sure-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Paul Collingwood captained England when they won the 2010 World Twenty20.",
+        "same": true
+      },
+      "sure-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Kolkata Knight Riders were captained by Gautam Gambhir when they won the IPL in 2012.",
+        "same": true
+      },
+      "sure-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Rohit Sharma captained Mumbai Indians when they won the 2019 IPL.",
+        "same": true
+      },
+      "none-11": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "Steve Smith scored 121 runs in the 2021 World Test Championship final against India [1].",
+        "same": true
+      },
+      "none-12": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-13": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-14": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      }
+    }
+  },
+  "agent, no web": {
+    "with_selfrag": [
+      0.9487179487179487,
+      0.9487179487179487
+    ],
+    "without_selfrag": [
+      0.9487179487179487,
+      0.9487179487179487
+    ],
+    "flips": {},
+    "differ": [
+      "chain-02",
+      "alike-05"
+    ],
+    "questions": {
+      "which-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In India's second innings of the first Test at Adelaide, Murali Vijay was out lbw for 99 runs [1].",
+        "same": true
+      },
+      "which-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Michael Carberry top-scored for England in their second innings of the fifth Test with 43 runs, and England made a total of 166 runs [1].",
+        "same": true
+      },
+      "which-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, Joe Root was stumped by wicketkeeper Alex Carey off the bowling of Nathan Lyon for a score of 46 runs [1].",
+        "same": true
+      },
+      "which-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2023 World Test Championship final at The Oval, Ajinkya Rahane was out for 89 runs, and he was caught by Cameron Green [2].",
+        "same": true
+      },
+      "which-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In India's first innings of the Gabba Test, Washington Sundar and Shardul Thakur added a partnership of 123 runs together [1].",
+        "same": true
+      },
+      "which-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2011 Cricket World Cup final, MS Dhoni and Gautam Gambhir added 109 runs together for the fourth wicket partnership [2].",
+        "same": true
+      },
+      "twin-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Virat Kohli was run out for 74 runs in India's first innings of the day-night Adelaide Test in December 2020. He was stranded in the middle of the pitch after a mix-up with Ajinkya Rahane, leading to his dismissal by Josh Hazlewood and Nathan Lyon breaking the stumps [1].",
+        "same": true
+      },
+      "twin-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara top-scored for India in their first innings of the Adelaide Test of the 2018–19 series with a score of 123 runs off 246 balls [1].",
+        "same": true
+      },
+      "twin-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2017 IPL final, Mitchell Johnson bowled the last over for the Mumbai Indians, and Rising Pune Supergiant needed 11 runs from it to win the match [9].",
+        "same": true
+      },
+      "twin-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Ajinkya Rahane scored a century for India in the Boxing Day Test at the MCG in December 2020, making 112 runs. His innings ended when he was run out by Marnus Labuschagne combining with Tim Paine at the stumps [1][10].",
+        "same": true
+      },
+      "twin-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Carlos Brathwaite scored 101 runs for the West Indies against New Zealand at the 2019 Cricket World Cup [1].",
+        "same": true
+      },
+      "pron-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Josh Hazlewood took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes, with figures of 5/30 in 12.5 overs [1].",
+        "same": true
+      },
+      "pron-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the fifth Test of India's 2014 tour of England at The Oval, MS Dhoni and Ishant Sharma put on a last-wicket partnership worth 58 runs in India's first innings [1].",
+        "same": true
+      },
+      "pron-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "At stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, England's score was 1/35, and the wicket of Cook was taken by Mitchell Johnson [3].",
+        "same": true
+      },
+      "pron-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "On the third morning of the December 2020 Adelaide Test, Jasprit Bumrah was caught and bowled by Pat Cummins for 2 runs in the second over of the day [1].",
+        "same": true
+      },
+      "pron-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Australia set England a target of 509 runs in the Lord's Test of the 2015 Ashes [1].",
+        "same": true
+      },
+      "num-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020 were 5 wickets for 8 runs in 5 overs [1].",
+        "same": true
+      },
+      "num-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Ben Stokes faced 219 balls for his unbeaten 135 in the Headingley Test of the 2019 Ashes [2].",
+        "same": true
+      },
+      "num-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018 were 6 wickets for 33 runs in 15.5 overs [1].",
+        "same": true
+      },
+      "num-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad were 5 wickets for 59 runs in 10 overs [1].",
+        "same": true
+      },
+      "num-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Sunrisers Hyderabad made a total of 208 runs for 7 wickets while batting first in the 2016 IPL final [1].",
+        "same": true
+      },
+      "multi-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2023 Cricket World Cup final, Rohit Sharma scored 47 runs for India, while Travis Head made 137 runs in Australia's chase [1][3].",
+        "same": true
+      },
+      "multi-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the Gabba Test of January 2021, India chased a target of 328 runs on the last day, and Shubman Gill scored 91 runs in the chase [1][2].",
+        "same": true
+      },
+      "multi-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "On the fourth day of the Headingley Test in the 2019 Ashes, Joe Root made 77 runs before being caught behind, while Jonny Bairstow scored 36 runs before being caught behind as well [1].",
+        "same": true
+      },
+      "multi-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Fakhar Zaman was reprieved by a no-ball when he was on a score of 3 runs, and he went on to make 114 runs from 106 balls [1].",
+        "same": true
+      },
+      "bio-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jasprit Bumrah's first Test wicket was AB de Villiers, and he made his Test debut at Newlands in Cape Town on 5 January 2018 [1].",
+        "same": true
+      },
+      "bio-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Nathan Lyon's first Test wicket was Kumar Sangakkara, which he took on 1 September 2011 during his debut match against Sri Lanka at Galle [1].",
+        "same": true
+      },
+      "bio-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Perth Stadium was announced to host the first Test of the 2025–26 Ashes series in October 2024. This marked the first time Perth Stadium hosted an Ashes Test [1][2].",
+        "same": true
+      },
+      "none-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "rule-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In a Twenty20 match, if both teams finish with the same score, the winner is decided by a Super Over, where each team bats for one additional over, and the team with the higher score in that Super Over wins.",
+        "same": true
+      },
+      "rule-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Australia and England contest the Ashes.",
+        "same": true
+      },
+      "rule-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Duckworth–Lewis method is used in cricket to calculate target scores in rain-affected matches, ensuring a fair outcome when the game cannot be completed as originally planned.",
+        "same": true
+      },
+      "fame-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "India won the 2011 Cricket World Cup.",
+        "same": true
+      },
+      "fame-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Rajasthan Royals won the first IPL season in 2008.",
+        "same": true
+      },
+      "fame-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Brett Lee took the first ever hat-trick in a T20I match during the match between Bangladesh and Australia on 16 September 2007 [1].",
+        "same": true
+      },
+      "recent-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "India won the 2024 Men's T20 World Cup by defeating South Africa by 7 runs in the final held on 29 June 2024 at Kensington Oval, Bridgetown [1].",
+        "same": true
+      },
+      "recent-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Royal Challengers Bengaluru won the 2025 Indian Premier League by defeating Punjab Kings by 6 runs in the final on 3 June 2025 [2].",
+        "same": true
+      },
+      "chain-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The two ends of The Oval, which hosted the 2023 World Test Championship final, are called the Vauxhall End and the Pavilion End [1].",
+        "same": true
+      },
+      "chain-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Wankhede Stadium was built in approximately 13 months and opened in time for the final Test between India and the West Indies in 1975 [1].",
+        "same": false,
+        "selfrag_answer": "It took approximately 13 months to build Wankhede Stadium, which opened in time for the final Test between India and the West Indies in 1975 [1].",
+        "selfrag_correct": 1.0,
+        "picked": "A1"
+      },
+      "chain-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Narendra Modi Stadium, which hosted the 2025 IPL final, was officially inaugurated by Indian president Ram Nath Kovind on 24 February 2021 [2].",
+        "same": true
+      },
+      "chain-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The spectator capacity of Headingley Cricket Ground, which hosted the first Test of India's 2025 tour of England, is 18,350 [2].",
+        "same": true
+      },
+      "chain-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The stadium that hosted the first Test of the 2025–26 Ashes, Perth Stadium, was officially opened on 21 January 2018 [2].",
+        "same": true
+      },
+      "chain-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The first Test was played at Adelaide Oval in 1884 [3].",
+        "same": true
+      },
+      "chain-07": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The player of the match in the 2024 IPL final, Mitchell Starc, attended Homebush Boys High School [1].",
+        "same": true
+      },
+      "chain-08": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The stadium that hosted the first Test of India's 2024–25 tour of Australia, Perth Stadium, can hold a total capacity of 61,266, which can be extended to 65,000 seats for rectangular sports [1][5].",
+        "same": true
+      },
+      "gap-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara announced his retirement from all forms of cricket on 24 August 2025 [2].",
+        "same": true
+      },
+      "gap-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara joined the BBC Test Match Special commentary team as a colour commentator/analyst for the first test of the series between England and India at Headingley in June 2025 [1].",
+        "same": true
+      },
+      "gap-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Rishabh Pant was traded from Lucknow Super Giants to Delhi Capitals in exchange for Kuldeep Yadav [1].",
+        "same": true
+      },
+      "gap-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Kane Williamson announced his retirement from all international cricket on 12 June 2026. In his last match, he scored 0 and 18 against England at Lord's [16].",
+        "same": true
+      },
+      "gap-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Kane Williamson became the first male direct signing for London Spirit in The Hundred 2025 [1].",
+        "same": true
+      },
+      "gap-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Suryakumar Yadav scored 242 runs across five innings in India's home T20I series against New Zealand in January 2026, and he was awarded the player of the series [1].",
+        "same": true
+      },
+      "trap-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest individual Test score by an Indian captain is 269 runs, made by Shubman Gill during the match between India and England at Edgbaston, Birmingham, from 2–6 July 2025 [1].",
+        "same": true
+      },
+      "trap-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Krunal Pandya scored the fastest fifty on debut in ODIs off 26 balls [1].",
+        "same": true
+      },
+      "trap-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest Test score by an Australian captain in India is 178 not out, achieved by Steve Smith during the 3rd Test match against India at the JSCA International Stadium Complex, Ranchi, from 16–20 March 2017 [1][3].",
+        "same": true
+      },
+      "trap-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "As of the 2015 Cricket World Cup, the highest team total in a World Cup semi-final was 328/7, made by Australia [1].",
+        "same": true
+      },
+      "trap-05": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "The highest individual Test score by an Indian batter against England is 235 runs, made by Virat Kohli during the 4th Test at Wankhede Stadium, Mumbai, from 8–12 December 2016 [2].",
+        "same": true
+      },
+      "trap-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Alex Carey (Aus) took the most catches, with a total of 8, by a wicketkeeper on debut during the 2021–22 Ashes series at The Gabba, Brisbane [1].",
+        "same": true
+      },
+      "pair-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84* runs [2]. He was born in Christchurch, New Zealand [6].",
+        "same": true
+      },
+      "pair-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The player of the match in the 2012 IPL final was Manvinder Bisla from Kolkata Knight Riders [1]. The player with the most wickets in the 2012 IPL season was Morné Morkel, who took 25 wickets [4].",
+        "same": true
+      },
+      "pair-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Chennai Super Kings won the 2010 IPL final by 22 runs [1]. Sachin Tendulkar scored 618 runs during the 2010 IPL season [2].",
+        "same": true
+      },
+      "pair-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "James Anderson took 704 Test wickets in his career [1]. Stuart Broad's figures when Australia were bowled out for 60 at Trent Bridge in 2015 were 8 wickets for 15 runs in 9.3 overs [2].",
+        "same": true
+      },
+      "pair-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Pat Cummins was born in Westmead, New South Wales, Australia. In the 2024 IPL final, he scored 24 runs off 19 balls [2].",
+        "same": true
+      },
+      "pair-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jos Buttler was appointed captain of England's ODI and T20I teams on 30 June 2022 [1]. The player of the match in the 2022 Men's T20 World Cup final was Sam Curran [2].",
+        "same": true
+      },
+      "alike-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest individual score in ICC Champions Trophy history is 177, made by Ibrahim Zadran of Afghanistan on 26 February 2025 against England [1].",
+        "same": true
+      },
+      "alike-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The fastest century in ICC Champions Trophy history was scored by David Miller of South Africa, who made his century in 67 balls during the match against New Zealand on 5 March 2025 [2].",
+        "same": true
+      },
+      "alike-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The fastest fifty in Cricket World Cup history was scored by Brendon McCullum, who reached the landmark in just 18 balls during the match between England and New Zealand on 20 February 2015 [1].",
+        "same": true
+      },
+      "alike-04": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "alike-05": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": false,
+        "selfrag_answer": "The highest individual score in an IPL match at Eden Gardens is 112 runs, made by Rajat Patidar during the match between RCB and LSG in 2022 [1].",
+        "selfrag_correct": 0.0,
+        "picked": "A3"
+      },
+      "alike-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [1].",
+        "same": true
+      },
+      "sure-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Darren Sammy captained the West Indies when they won the 2012 World Twenty20.",
+        "same": true
+      },
+      "sure-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Paul Collingwood captained England when they won the 2010 World Twenty20.",
+        "same": true
+      },
+      "sure-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Kolkata Knight Riders were captained by Gautam Gambhir when they won the IPL in 2012.",
+        "same": true
+      },
+      "sure-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Rohit Sharma captained Mumbai Indians when they won the 2019 IPL.",
+        "same": true
+      },
+      "none-11": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "Steve Smith scored 121 runs in the 2021 World Test Championship final against India [1].",
+        "same": true
+      },
+      "none-12": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-13": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-14": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      }
+    }
+  },
+  "agent, with web": {
+    "with_selfrag": [
+      0.9230769230769231,
+      0.9230769230769231
+    ],
+    "without_selfrag": [
+      0.9294871794871795,
+      0.9294871794871795
+    ],
+    "flips": {
+      "which-06": "1 -> 0.5",
+      "gap-01": "0 -> 1",
+      "trap-06": "1 -> 0",
+      "alike-05": "0 -> 1"
+    },
+    "differ": [
+      "which-06",
+      "pron-01",
+      "gap-01",
+      "trap-06",
+      "alike-05"
+    ],
+    "questions": {
+      "which-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In India's second innings of the first Test at Adelaide, Murali Vijay was out for 99, given lbw [4].",
+        "same": true
+      },
+      "which-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Michael Carberry top-scored for England in their second innings of the fifth Test with 43 runs, and England made a total of 166 runs [4].",
+        "same": true
+      },
+      "which-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, Joe Root was stumped by wicketkeeper Alex Carey off the bowling of Nathan Lyon for a score of 46 runs [1].",
+        "same": true
+      },
+      "which-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2023 World Test Championship final at The Oval, Ajinkya Rahane was out for 89 runs, and he was caught by Cameron Green [2].",
+        "same": true
+      },
+      "which-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In India's first innings of the Gabba Test, Washington Sundar and Shardul Thakur added a partnership of 123 runs together [1].",
+        "same": true
+      },
+      "which-06": {
+        "correct": 0.5,
+        "correct3": 0.5,
+        "answer": "MS Dhoni and Gautam Gambhir added 200 runs together in the 2011 Cricket World Cup final, with Gambhir scoring 97 and Dhoni scoring 91 not out, contributing to a partnership of 109 runs between them [2][3].",
+        "same": false,
+        "selfrag_answer": "In the 2011 Cricket World Cup final, MS Dhoni and Gautam Gambhir added 109 runs together for the fourth wicket [1].",
+        "selfrag_correct": 1.0,
+        "picked": "A2"
+      },
+      "twin-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Virat Kohli was dismissed in India's first innings of the day-night Adelaide Test by being run out for 74 runs. He was stranded in the middle of the pitch after a mix-up with Ajinkya Rahane, leading to his dismissal by Josh Hazlewood and Nathan Lyon breaking the stumps [1].",
+        "same": true
+      },
+      "twin-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara top-scored for India in their first innings of the Adelaide Test of the 2018–19 series with a score of 123 runs off 246 balls [1].",
+        "same": true
+      },
+      "twin-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2017 IPL final, Mitchell Johnson bowled the last over for the Mumbai Indians, and Rising Pune Supergiant needed 11 runs from it to win the match [9].",
+        "same": true
+      },
+      "twin-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Ajinkya Rahane scored a century for India in the Boxing Day Test at the MCG in December 2020, making 112 runs. His innings ended when he was run out by Marnus Labuschagne combining with Tim Paine at the stumps [1][10].",
+        "same": true
+      },
+      "twin-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Carlos Brathwaite scored 101 runs for the West Indies against New Zealand at the 2019 Cricket World Cup [1].",
+        "same": true
+      },
+      "pron-01": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "Jofra Archer took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes, finishing with figures of 6/45 [1].",
+        "same": false,
+        "selfrag_answer": "Jofra Archer took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes, with figures of 6/45 [1].",
+        "selfrag_correct": 0.0,
+        "picked": "A1"
+      },
+      "pron-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the fifth Test of India's 2014 tour of England at The Oval, MS Dhoni and Ishant Sharma put on a last-wicket partnership worth 58 runs in India's first innings [1].",
+        "same": true
+      },
+      "pron-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "At stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, England's score was 1/35, and the wicket of Cook was taken by Mitchell Johnson [3].",
+        "same": true
+      },
+      "pron-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "On the third morning of the December 2020 Adelaide Test, Jasprit Bumrah was caught and bowled by Pat Cummins for 2 runs [1].",
+        "same": true
+      },
+      "pron-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Australia set England a target of 509 runs to be scored in five sessions in the Lord's Test of the 2015 Ashes [1].",
+        "same": true
+      },
+      "num-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020 were 5 wickets for 8 runs in 5 overs [1].",
+        "same": true
+      },
+      "num-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Ben Stokes faced 219 balls for his unbeaten 135* in the Headingley Test of the 2019 Ashes [2].",
+        "same": true
+      },
+      "num-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018 were 6 wickets for 33 runs in 15.5 overs [1].",
+        "same": true
+      },
+      "num-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad were 5 wickets for 59 runs in 10 overs [1].",
+        "same": true
+      },
+      "num-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Sunrisers Hyderabad made a total of 208 runs for 7 wickets in their innings while batting first in the 2016 IPL final [1].",
+        "same": true
+      },
+      "multi-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2023 Cricket World Cup final, Rohit Sharma scored 47 runs for India, while Travis Head made 137 runs in Australia's chase [1][3].",
+        "same": true
+      },
+      "multi-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the Gabba Test of January 2021, India chased a target of 328 runs on the last day, and Shubman Gill scored 91 runs in the chase [1][2].",
+        "same": true
+      },
+      "multi-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "On the fourth day of the Headingley Test in the 2019 Ashes, Joe Root made 77 runs before being caught behind, while Jonny Bairstow scored 36 runs before being caught behind as well [1].",
+        "same": true
+      },
+      "multi-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Fakhar Zaman was reprieved by a no-ball when he was on a score of 3 runs, and he went on to make 114 runs from 106 balls [1].",
+        "same": true
+      },
+      "bio-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jasprit Bumrah's first Test wicket was AB de Villiers, and he made his Test debut at Newlands in Cape Town on 5 January 2018 [1].",
+        "same": true
+      },
+      "bio-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Nathan Lyon's first Test wicket was Kumar Sangakkara, whom he dismissed with his first ball in Test cricket on 1 September 2011 [1].",
+        "same": true
+      },
+      "bio-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Perth Stadium was announced to host the first Test of the 2025–2026 Men's Ashes series in October 2024. This marked the first time Perth Stadium hosted an Ashes Test [4].",
+        "same": true
+      },
+      "none-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "rule-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In a Twenty20 match, if both teams finish with the same score, the winner is decided by a Super Over, where each team bats for one additional over, and the team with the higher score in that Super Over wins.",
+        "same": true
+      },
+      "rule-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Australia and England contest the Ashes.",
+        "same": true
+      },
+      "rule-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Duckworth–Lewis method is used in cricket to calculate target scores in rain-affected matches, ensuring a fair outcome when the game cannot be completed as originally planned.",
+        "same": true
+      },
+      "fame-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "India won the 2011 Cricket World Cup.",
+        "same": true
+      },
+      "fame-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Rajasthan Royals won the first IPL season in 2008.",
+        "same": true
+      },
+      "fame-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Brett Lee took the first hat-trick in a T20 international match against Bangladesh on 16 September 2007 [1].",
+        "same": true
+      },
+      "recent-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "India won the 2024 Men's T20 World Cup by defeating South Africa by 7 runs in the final held on 29 June 2024 at Kensington Oval, Bridgetown [1].",
+        "same": true
+      },
+      "recent-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Royal Challengers Bengaluru won the 2025 Indian Premier League by defeating Punjab Kings in the final by 6 runs, marking their maiden title after 18 years [2].",
+        "same": true
+      },
+      "chain-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The two ends of The Oval, which hosted the 2023 World Test Championship final, are called the Vauxhall End and the Pavilion End [1].",
+        "same": true
+      },
+      "chain-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Wankhede Stadium, which hosted the 2011 Cricket World Cup final, was built in approximately 13 months and opened in time for the final Test between India and the West Indies in 1975 [1][4].",
+        "same": true
+      },
+      "chain-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Narendra Modi Stadium, which hosted the 2025 IPL final, was officially inaugurated by Indian president Ram Nath Kovind on 24 February 2021 [5].",
+        "same": true
+      },
+      "chain-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The spectator capacity of Headingley Cricket Ground, which hosted the first Test of India's 2025 tour of England, is 18,350 [2].",
+        "same": true
+      },
+      "chain-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The stadium that hosted the first Test of the 2025–26 Ashes, Perth Stadium, was officially opened on 21 January 2018 [2].",
+        "same": true
+      },
+      "chain-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The first Test was played at Adelaide Oval in 1884 [3].",
+        "same": true
+      },
+      "chain-07": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The player of the match in the 2024 IPL final, Mitchell Starc, attended Homebush Boys High School [1].",
+        "same": true
+      },
+      "chain-08": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The stadium that hosted the first Test of India's 2024–25 tour of Australia, Perth Stadium, can hold a total capacity of 61,266, which can be extended to 65,000 seats for rectangular sports [1][5].",
+        "same": true
+      },
+      "gap-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara announced his retirement from all forms of cricket on August 24, 2025 [6].",
+        "same": false,
+        "selfrag_answer": "I don't know based on the provided documents.",
+        "selfrag_correct": 0.0,
+        "picked": "A1"
+      },
+      "gap-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Cheteshwar Pujara joined the BBC Test Match Special commentary team as a colour commentator/analyst for the first test of the series between England and India at Headingley in June 2025 [1].",
+        "same": true
+      },
+      "gap-03": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "gap-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Kane Williamson retired from international cricket on June 12, 2026, after scoring 0 and 18 against England at Lords [1].",
+        "same": true
+      },
+      "gap-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Kane Williamson became the first male direct signing for London Spirit in The Hundred in 2025 [6].",
+        "same": true
+      },
+      "gap-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Suryakumar Yadav scored 242 runs across five innings in India's home T20I series against New Zealand in January 2026, and he was awarded the player of the series [1].",
+        "same": true
+      },
+      "trap-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest individual Test score by an Indian captain is 269 runs, made by Shubman Gill during the match between India and England at Edgbaston, Birmingham, from 2–6 July 2025 [1].",
+        "same": true
+      },
+      "trap-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Krunal Pandya scored the fastest fifty on debut in ODIs off just 26 balls [1].",
+        "same": true
+      },
+      "trap-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest Test score by an Australian captain in India is 178 not out, achieved by Steve Smith during the 3rd Test match against India at the JSCA International Stadium Complex, Ranchi, from 16–20 March 2017 [1][3].",
+        "same": true
+      },
+      "trap-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "As of the 2015 Cricket World Cup, the highest team total in a World Cup semi-final was 328/7, made by Australia [1].",
+        "same": true
+      },
+      "trap-05": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "The highest individual Test score by an Indian batter against England is 235 runs, made by Virat Kohli during the 4th Test at Wankhede Stadium, Mumbai, from 8–12 December 2016 [2].",
+        "same": true
+      },
+      "trap-06": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": false,
+        "selfrag_answer": "Alex Carey (Aus) took the most catches, with a total of 8, by a wicketkeeper on debut [1].",
+        "selfrag_correct": 1.0,
+        "picked": "A1"
+      },
+      "pair-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84* runs [2]. He was born in Christchurch, New Zealand [6].",
+        "same": true
+      },
+      "pair-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The player of the match in the 2012 IPL final was Manvinder Bisla from Kolkata Knight Riders [1]. The player with the most wickets in the 2012 IPL season was Morné Morkel, who took 25 wickets [4].",
+        "same": true
+      },
+      "pair-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Chennai Super Kings won the 2010 IPL final by 22 runs [1]. Sachin Tendulkar scored 618 runs during the 2010 IPL season [2].",
+        "same": true
+      },
+      "pair-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "James Anderson took 704 Test wickets in his career [1]. Stuart Broad's figures when Australia were bowled out for 60 at Trent Bridge in 2015 were 8 wickets for 15 runs in 9.3 overs [2].",
+        "same": true
+      },
+      "pair-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Pat Cummins was born in Westmead, New South Wales, Australia. In the 2024 IPL final, he scored 24 runs off 19 balls [2].",
+        "same": true
+      },
+      "pair-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Jos Buttler was appointed captain of England's ODI and T20I teams on 30 June 2022 [1]. The player of the match in the 2022 Men's T20 World Cup final was Sam Curran [2].",
+        "same": true
+      },
+      "alike-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest individual score in ICC Champions Trophy history is 177, made by Ibrahim Zadran during the match between Afghanistan and England on 26 February 2025 [4].",
+        "same": true
+      },
+      "alike-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "David Miller scored the fastest century in ICC Champions Trophy history, reaching his hundred in 67 balls [2].",
+        "same": true
+      },
+      "alike-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The fastest fifty in Cricket World Cup history was scored by Brendon McCullum, who reached the landmark in just 18 balls during the match between England and New Zealand on 20 February 2015 [1].",
+        "same": true
+      },
+      "alike-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Alzarri Joseph holds the record for the best bowling figures in IPL history with 6 wickets for 12 runs (6/12) for Mumbai Indians against Sunrisers Hyderabad during the 2019 Indian Premier League [8].",
+        "same": true
+      },
+      "alike-05": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The highest individual score in an IPL match is 175*, made by Chris Gayle in 2013 [6].",
+        "same": false,
+        "selfrag_answer": "I don't know based on the provided documents.",
+        "selfrag_correct": 0.0,
+        "picked": "A1"
+      },
+      "alike-06": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The fastest century in Men's T20 World Cup history is 100* off 33 balls, scored by Finn Allen on 4 March 2026 against South Africa in the semi-finals of the 2026 ICC Men's T20 World Cup [1].",
+        "same": true
+      },
+      "sure-01": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Darren Sammy captained the West Indies when they won the 2012 World Twenty20.",
+        "same": true
+      },
+      "sure-02": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Paul Collingwood captained England when they won the 2010 World Twenty20.",
+        "same": true
+      },
+      "sure-03": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "The Kolkata Knight Riders were captained by Gautam Gambhir when they won the IPL in 2012.",
+        "same": true
+      },
+      "sure-04": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "Rohit Sharma captained Mumbai Indians when they won the 2019 IPL.",
+        "same": true
+      },
+      "none-11": {
+        "correct": 0.0,
+        "correct3": 0.0,
+        "answer": "Steve Smith scored 121 runs in the 2021 World Test Championship final against India [1].",
+        "same": true
+      },
+      "none-12": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-13": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      },
+      "none-14": {
+        "correct": 1.0,
+        "correct3": 1.0,
+        "answer": "I don't know based on the provided documents.",
+        "same": true
+      }
+    }
+  },
+  "spend_usd": 0.0006
+}

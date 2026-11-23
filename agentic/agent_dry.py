@@ -58,7 +58,7 @@ def main():
         print(f"  {tool:12s} {len(o.hits):2d} passages | {o.text[:110]!r}")
 
     print("\n3. PROMPT (the agent's first decision, after the fixed walk)")
-    prompt = agent_loop.prompt(q, obs[:1], "first")
+    prompt = agent_loop.prompt(q, obs[:1], "plain")
     print(f"  ~{len(prompt) // 4} tokens\n\n{prompt}")
 
     (ab.RESULTS / "phase2_dry.json").write_text(json.dumps(

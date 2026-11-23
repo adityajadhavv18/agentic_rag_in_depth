@@ -1,0 +1,88 @@
+{
+  "question": "chain-07",
+  "tool": {
+    "results": 5,
+    "sources": [
+      "2024 Indian Premier League final",
+      "IPL Finals Highlights 2024 | Sunrisers vs Knight Riders",
+      "KKR's bowlers rip through SRH to win third IPL title",
+      "Kolkata Knight Riders are the champions of IPL 2024. ...",
+      "Kolkata beat Hyderabad by eight wickets: IPL 2024 final – as"
+    ]
+  },
+  "forced": {
+    "decisions": [
+      {
+        "stage": "first",
+        "agent_said_enough": true,
+        "web_query": null
+      },
+      {
+        "stage": "web",
+        "agent_said_enough": true,
+        "web_query": ""
+      }
+    ],
+    "web_query": "Which school did the player of the match in the 2024 IPL final attend?",
+    "pool": [
+      "web::f405b025a0178161::0",
+      "web::f405b025a0178161::1",
+      "web::f405b025a0178161::2",
+      "mitchell_starc::s001::00",
+      "2024_indian_premier_league_final::s000::00",
+      "mitchell_starc::s003::03",
+      "mitchell_starc::s009::02",
+      "2024_indian_premier_league::s000::00",
+      "2024_indian_premier_league_final::s004::00",
+      "2024_indian_premier_league::s017::00",
+      "2024_indian_premier_league_final::s001::00",
+      "mitchell_starc::s002::03",
+      "mitchell_starc::s000::02",
+      "mitchell_starc::s007::03",
+      "mitchell_starc::s005::00"
+    ],
+    "crag_action": "CORRECT",
+    "web_scores": {
+      "web::f405b025a0178161::0": 0,
+      "web::f405b025a0178161::1": 0,
+      "web::f405b025a0178161::2": 0
+    },
+    "kept": [
+      "web::f405b025a0178161::0",
+      "web::f405b025a0178161::1",
+      "web::f405b025a0178161::2",
+      "mitchell_starc::s001::00",
+      "2024_indian_premier_league_final::s000::00",
+      "mitchell_starc::s003::03",
+      "mitchell_starc::s009::02",
+      "2024_indian_premier_league::s000::00",
+      "2024_indian_premier_league_final::s004::00",
+      "2024_indian_premier_league::s017::00",
+      "2024_indian_premier_league_final::s001::00",
+      "mitchell_starc::s002::03",
+      "mitchell_starc::s000::02",
+      "mitchell_starc::s007::03",
+      "mitchell_starc::s005::00"
+    ],
+    "picked": "A_all",
+    "answer": "The player of the match in the 2024 IPL final, Mitchell Starc, attended Homebush Boys High School, where he represented the school's 1st grade cricket team [4]."
+  },
+  "checks": {
+    "Serper returned results": true,
+    "every result registered as a chunk": true,
+    "CRAG's labeller reads them": true,
+    "reply cached on disk": true,
+    "same query again = cache hit, no request": true,
+    "routed to multi": true,
+    "ladder climbed walk -> ircot -> web": true,
+    "web's top 3 lead the pool": true,
+    "CRAG graded the web passages": true,
+    "Self-RAG wrote candidates over the pool": true,
+    "an answer came out": true
+  },
+  "spend": {
+    "real_usd": 0.0029,
+    "serper_requests": 1,
+    "serper_cached": 2
+  }
+}
