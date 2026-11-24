@@ -1,0 +1,406 @@
+{
+  "file": "golden_cricket_agentic_test_v1.jsonl",
+  "n": 20,
+  "kinds": {
+    "chain": 5,
+    "pair": 3,
+    "twin": 2,
+    "alike": 3,
+    "solo": 2,
+    "gap": 2,
+    "sure": 1,
+    "none": 2
+  },
+  "rows": {
+    "chain-31": {
+      "kind": "chain",
+      "parts": {
+        "library": [
+          4,
+          1
+        ],
+        "records": [
+          0,
+          0
+        ],
+        "fallback": [
+          0,
+          0
+        ]
+      },
+      "hop1_docs": [
+        "2011_cricket_world_cup",
+        "2011_cricket_world_cup_final",
+        "australian_cricket_team_in_india_in_2012-13"
+      ],
+      "hop2_docs": [
+        "ms_dhoni"
+      ],
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "chain-32": {
+      "kind": "chain",
+      "parts": {
+        "library": [
+          1,
+          5
+        ],
+        "records": [
+          0,
+          0
+        ],
+        "fallback": [
+          0,
+          0
+        ]
+      },
+      "hop1_docs": [
+        "2019_indian_premier_league_final"
+      ],
+      "hop2_docs": [
+        "jasprit_bumrah",
+        "narendra_modi_stadium"
+      ],
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "chain-33": {
+      "kind": "chain",
+      "parts": {
+        "library": [
+          24,
+          1
+        ],
+        "records": [
+          0,
+          0
+        ],
+        "fallback": [
+          0,
+          0
+        ]
+      },
+      "hop1_docs": [
+        "2012_world_twenty20",
+        "2014_world_twenty20",
+        "2015_cricket_world_cup_pool_b"
+      ],
+      "hop2_docs": [
+        "virat_kohli"
+      ],
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "chain-34": {
+      "kind": "chain",
+      "parts": {
+        "library": [
+          128,
+          1
+        ],
+        "records": [
+          0,
+          0
+        ],
+        "fallback": [
+          0,
+          0
+        ]
+      },
+      "hop1_docs": [
+        "2008_indian_premier_league",
+        "2010_indian_premier_league",
+        "2011_cricket_world_cup_group_a"
+      ],
+      "hop2_docs": [
+        "eden_gardens"
+      ],
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "chain-35": {
+      "kind": "chain",
+      "parts": {
+        "library": [
+          34,
+          1
+        ],
+        "records": [
+          0,
+          0
+        ],
+        "fallback": [
+          0,
+          0
+        ]
+      },
+      "hop1_docs": [
+        "2009_world_twenty20",
+        "2009_world_twenty20_final",
+        "2015_ashes_series"
+      ],
+      "hop2_docs": [
+        "lords"
+      ],
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "pair-31": {
+      "kind": "pair",
+      "parts": {
+        "library": [
+          1,
+          1
+        ],
+        "records": [
+          0,
+          0
+        ],
+        "fallback": [
+          0,
+          0
+        ]
+      },
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "pair-32": {
+      "kind": "pair",
+      "parts": {
+        "library": [
+          2,
+          1
+        ],
+        "records": [
+          0,
+          0
+        ],
+        "fallback": [
+          0,
+          0
+        ]
+      },
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "pair-33": {
+      "kind": "pair",
+      "parts": {
+        "library": [
+          2,
+          1,
+          1
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "fallback": [
+          0,
+          0,
+          0
+        ]
+      },
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "twin-31": {
+      "kind": "twin",
+      "parts": {
+        "library": [
+          1
+        ],
+        "records": [
+          0
+        ],
+        "fallback": [
+          0
+        ]
+      },
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "twin-32": {
+      "kind": "twin",
+      "parts": {
+        "library": [
+          1
+        ],
+        "records": [
+          0
+        ],
+        "fallback": [
+          0
+        ]
+      },
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "alike-31": {
+      "kind": "alike",
+      "parts": {
+        "library": [
+          0
+        ],
+        "records": [
+          1
+        ],
+        "fallback": [
+          0
+        ]
+      },
+      "decoy_chunks": [
+        2
+      ],
+      "evidence_in": [
+        "records"
+      ]
+    },
+    "alike-32": {
+      "kind": "alike",
+      "parts": {
+        "library": [
+          0
+        ],
+        "records": [
+          1
+        ],
+        "fallback": [
+          0
+        ]
+      },
+      "decoy_chunks": [
+        2,
+        2
+      ],
+      "evidence_in": [
+        "records"
+      ]
+    },
+    "alike-33": {
+      "kind": "alike",
+      "parts": {
+        "library": [
+          0
+        ],
+        "records": [
+          1
+        ],
+        "fallback": [
+          0
+        ]
+      },
+      "decoy_chunks": [
+        1,
+        1
+      ],
+      "evidence_in": [
+        "records"
+      ]
+    },
+    "solo-31": {
+      "kind": "solo",
+      "parts": {
+        "library": [
+          6
+        ],
+        "records": [
+          0
+        ],
+        "fallback": [
+          0
+        ]
+      },
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "solo-32": {
+      "kind": "solo",
+      "parts": {
+        "library": [
+          47
+        ],
+        "records": [
+          0
+        ],
+        "fallback": [
+          0
+        ]
+      },
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "gap-31": {
+      "kind": "gap",
+      "parts": {
+        "library": [
+          0
+        ],
+        "records": [
+          0
+        ],
+        "fallback": [
+          1
+        ]
+      },
+      "evidence_in": [
+        "fallback"
+      ]
+    },
+    "gap-32": {
+      "kind": "gap",
+      "parts": {
+        "library": [
+          0
+        ],
+        "records": [
+          0
+        ],
+        "fallback": [
+          1
+        ]
+      },
+      "evidence_in": [
+        "fallback"
+      ]
+    },
+    "sure-31": {
+      "kind": "sure",
+      "parts": {
+        "library": [
+          1
+        ],
+        "records": [
+          0
+        ],
+        "fallback": [
+          0
+        ]
+      },
+      "evidence_in": [
+        "library"
+      ]
+    },
+    "none-31": {
+      "kind": "none"
+    },
+    "none-32": {
+      "kind": "none"
+    }
+  },
+  "problems": []
+}

@@ -84,6 +84,15 @@ IRCoT) → CRAG 3f with linked grading → answer, over the library plus six Wik
 - **trap-05** (highest Test score by an Indian against England: Nair 303*). The library's only "highest" sentence
   is about Kohli's 235, written a week before Nair passed it. The agent saw both numbers and doubted it ("unclear
   which is the highest"), but the answer step trusted the stated claim over comparing numbers.
+  **The simpler builds got it right.** Across every saved run, trap-05 was right in Contextual r4j, Fusion f6a
+  and CRAG variants 3b and 3e, all of which answer from 5 passages that come mostly from the 2016–17 series
+  article, where the 303* scorecard line sits. It was wrong in Adaptive, CRAG 3f, Self-RAG, GraphRAG and every
+  Agentic run (7–9 passages). Their extra searches bring in the Wankhede Stadium article, which holds the stale
+  sentence, and gpt-4o-mini trusts that written "highest" claim over the bigger number. (GraphRAG's Phase 5 got
+  it right only through a line I wrote by hand, so that run does not count.) More evidence also means more
+  chances to read a confident, stale sentence. I did not fix it: every fix I could see (a rule sending record
+  questions to the web, a stricter "enough?" prompt, a smaller pool) would be tuned to this one question, and
+  the web rule would also flip trap-02, where the golden answer is older than the web.
 - **none-11** (should be "I don't know"): a 2023 passage with Steve Smith's 121 passes for the 2021 final.
 - **Latency on multi**: the agent climbs to IRCoT on about half the multi questions (median 18 s against
   GraphRAG's 12 s).
